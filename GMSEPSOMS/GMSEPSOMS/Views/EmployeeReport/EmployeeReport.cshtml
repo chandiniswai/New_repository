@@ -1,0 +1,296 @@
+﻿
+@{
+    ViewBag.Title = "EmployeeReport";
+    Layout = "~/Views/Shared/_LayoutPageOffSite.cshtml";
+}
+<link href="~/Content/StyleSheet5.css" rel="stylesheet" />
+
+<div class="row">
+    <div class="col-lg-4 col-sm-12">
+        <div class="G4SOfficials-dropdown">
+            <select class="form-control">
+                <option value="0">G4S Officials</option>
+                <option value="1">ABC</option>
+            </select>
+        </div>
+    </div>
+
+    <div class=" col-lg-4 col-sm-12">
+        <div class="">
+            <input type="text" id="rangeDate" class="form-control" placeholder=" Date " data-input style="background-color:white;">
+            <i class="fa fa-calendar" aria-hidden="true" style="float:right;margin: -30px 15px 0 0;color:#ff243a;"></i>
+        </div>
+    </div>
+</div>
+<div class="row" style="background-color:#ff243a;margin:1% 20% 0 0;padding:5px;border-radius: 10px;">
+    <div class=" col-lg-6 col-md-12 col-sm-12">
+        <p style="text-align: center;margin: 8px 0 0 0; color: white;font-size: 14px;font-weight: 600;">
+            No.Of Clients Locations
+            <button style="float: right;background-color: white;font-weight: 600;border-radius: 25px;padding: 2px 25px;color:red;border: white;margin: -5px 0 0 0; ">93</button>
+        </p>
+
+    </div>
+    <div class=" col-lg-6 col-md-12 col-sm-12">
+        <p style="text-align: center;margin: 8px 0 0 0; color: white;font-size: 14px;font-weight: 600;">
+            Client Locations Mapped
+            <button style="float: right;background-color: white;font-weight: 600;border-radius: 25px;color:red;padding: 2px 25px;border: white;margin: -5px 0 0 0; ">93</button>
+        </p>
+    </div>
+</div>
+<br />
+<div class="container-fluid ">
+    <div class="row one " style="box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;margin-top: 1%">
+        <div id="y1" class="col-lg-1 col-md-1 col-sm-12 col-xs-12 text-center" style="background-color:red; ">
+            <center style="background-color:red;color:white">
+                <b>
+                    <p class="x1" style="color: white;">SITE INSPECTION</p>
+                </b>
+            </center>
+        </div>
+
+        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12" style="background-color:white;    border-right: 5px solid #e6e7e8;">
+            <div class="card-body" style="     border-radius: 25px;
+    height: 50px;
+    box-shadow: 2px 2px 2px 2px #888888;
+    padding: 15px 20px 15px 20px;
+    margin: 5px 49px 0px 25px;">
+
+                <table style="       margin: 4% 2%;">
+                    <tr>
+                        <td><h6 style="font-size: 13px;font-weight: bold;">Schedule</h6></td>
+                        <td> <a href="#" class="btn-danger" style="color: white;
+    padding: 6px 25px 7px 30px;
+    /* padding: 0px; */
+    border-radius: 50px;
+    /* text-align: right; */
+    /* width: 33px; */
+    font-weight: 600;
+    margin-left: 61%;">2</a></td>
+
+                    </tr>
+                </table>
+            </div>
+
+            <div class="card-body" style="     height: 50px; border-radius: 25px; box-shadow: 2px 2px 2px 2px #888888; padding: 5px 25px 0px 25px;
+        margin: 12px 46px 1px 27px;">
+
+                <table align="center">
+                    <tr>
+                        <td>
+                            <h6 style="font-size: 13px;font-weight: bold;">Completed</h6>
+                            <p style="font-size:10px;color:black;">(Sheduled & Unsheduled)</p>
+                        </td>
+                        <td> <a href="#" class="btn-danger" style="color: white;
+    padding: 5px 30px 5px 30px;
+       float: right;
+    margin: -15px -11px 0 0px;
+    border-radius: 50px;
+   
+    font-weight: 600;
+  ">2</a></td>
+
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+        <br />
+        <hr />
+        <div class="v1"></div>
+        <div class=" col-lg-7 col-md-12 col-sm-12 col-xs-12 " style="background-color:white;margin-left: inherit;">
+            <center>
+                <h4 style="color:red;">Details Of Site Inspection</h4>
+            </center>
+            <div class="row">
+                <div class="col">
+                    <div class="card-body" style="border-radius: 10px;box-shadow: 2px 2px 2px 2px #888888;padding:5px;">
+
+                        <center>
+                            <h6 style="font-size: 11px;font-weight: bold;">Day</h6>
+                            <a href="#" class="btn-danger" style="color:white;padding:3px 20px 3px 20px; border-radius:50px;text-align: center; font-weight: 600;">2</a>
+                        </center>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-body" style=" border-radius: 10px;box-shadow: 2px 2px 2px 2px #888888;padding:5px;">
+                        <center>
+                            <h6 style="font-size: 11px;font-weight: bold;">Night</h6>
+                            <a href="#" class="btn-danger" style="color:white;padding:3px 20px 3px 20px; border-radius:50px;text-align: center; font-weight: 600;">2</a>
+                        </center>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-body" style="border-radius: 10px;box-shadow: 2px 2px 2px 2px #888888;padding:5px;">
+
+                        <center>
+                            <h6 style="font-size: 11px;font-weight: bold;">Surprise</h6>
+                            <a href="#" class="btn-danger" style="color:white;padding:3px 20px 3px 20px;border-radius:50px;text-align: center; font-weight: 600;">2</a>
+                        </center>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-body" style=" border-radius: 10px;box-shadow: 2px 2px 2px 2px #888888;padding:5px;">
+                        <center>
+                            <h6 style="font-size: 11px;font-weight: bold;">Others</h6>
+                            <a href="#" class="btn-danger " style="color:white;padding:3px 20px 3px 20px; border-radius:50px;text-align: center; font-weight: 600;">2</a>
+                        </center>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<div class="container-fluid" style="box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;">
+    <div class="row ">
+        <div id="y2"class="col-lg-1 col-md-4 col-sm-12 col-xs-12" style="background-color:red;color:white;">
+            <b>
+                <p class="x2" style="color: white;">VARIANCES</p>
+            </b>
+        </div>
+        <div class="col-lg-1 col-md-8 col-sm-12 col-xs-12 ">
+            <div id="x3" class="card-body text-center" style=" border-radius: 10px;box-shadow: 2px 2px 2px 2px #888888;">
+                <center>
+                    <h6 style="font-size: 11px;font-weight: bold;">Total Variance</h6>
+                    <a href="#" class="btn-danger " style="color:white;padding:3px 20px 3px 20px; border-radius:50px;text-align: center; font-weight: 600;">2</a>
+                </center>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-10 " style="margin: 0 0 0 25px;">
+            <center style="color:red;"><h4>Details Of Variances</h4></center>
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="card-body" style=" border-radius: 10px;box-shadow: 2px 2px 2px 2px #888888;padding:5px;">
+                        <center>
+                            <h6 style="font-size: 11px;font-weight: bold;">Alterness</h6>
+                            <a href="#" class="btn-danger " style="color:white;padding:3px 20px 3px 20px;border-radius:50px;text-align: center; font-weight: 600;">2</a>
+                        </center>
+
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card-body" style=" border-radius: 10px;box-shadow: 2px 2px 2px 2px #888888;padding:5px;">
+                        <center>
+                            <h6 style="font-size: 11px;font-weight: bold;">Uniform</h6>
+                            <a href="#" class="btn-danger " style="color:white;padding:3px 20px 3px 20px; border-radius:50px;text-align: center; font-weight: 600;">2</a>
+                        </center>
+
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card-body" style=" border-radius: 10px;box-shadow: 2px 2px 2px 2px #888888;padding:5px;">
+                        <center>
+                            <h6 style="font-size: 11px;font-weight: bold;">SOP</h6>
+                            <a href="#" class="btn-danger " style="color:white;padding:3px 20px 3px 20px; border-radius:50px;text-align: center; font-weight: 600;">2</a>
+                        </center>
+
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card-body" style=" border-radius: 10px;box-shadow: 2px 2px 2px 2px #888888;padding:5px;">
+                        <center>
+                            <h6 style="font-size: 11px;font-weight: bold;">HSE</h6>
+                            <a href="#" class="btn-danger " style="color:white;padding:3px 20px 3px 20px; border-radius:50px;text-align: center; font-weight: 600;">2</a>
+                        </center>
+
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card-body" style=" border-radius: 10px;box-shadow: 2px 2px 2px 2px #888888;padding:5px;">
+                        <center>
+                            <h6 style="font-size: 11px;font-weight: bold;">Emergency</h6>
+                            <a href="#" class="btn-danger " style="color:white;padding:3px 20px 3px 20px; border-radius:50px;text-align: center; font-weight: 600;">2</a>
+                        </center>
+
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card-body" style=" border-radius: 10px;box-shadow: 2px 2px 2px 2px #888888;padding:5px;">
+                        <center>
+                            <h6 style="font-size: 11px;font-weight: bold;">Training</h6>
+                            <a href="#" class="btn-danger " style="color:white;color:white;padding:3px 20px 3px 20px; border-radius:50px;text-align: center; font-weight: 600;">2</a>
+                        </center>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-4" style="box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;">
+            <div class="row">
+                <div #id="y3" class="col-lg-1" style="background-color:red;color:white;padding: 12px 0 10px 15px;">
+                    <b>
+                        <p class="x4" style="color: white;">CLIENT COMPLAINTS</p>
+                    </b>
+                </div>
+                <div class="col-lg-5" style="margin-top: 30px;">
+                    <div class="card-body text-center" style=" border-radius: 10px;box-shadow: 2px 2px 2px 2px #888888;">
+                        <center>
+                            <h6 style="font-size: 11px;font-weight: bold;">Total Reported</h6>
+                            <a href="#" class="btn-danger " style="color:white;padding:3px 20px 3px 20px; border-radius:50px;text-align: center; font-weight: 600;">2</a>
+                        </center>
+                    </div>
+                </div>
+                <div class="col-lg-5" style="margin-top: 30px;">
+                    <div class="card-body text-center" style=" border-radius: 10px;box-shadow: 2px 2px 2px 2px #888888;">
+                        <center>
+                            <h6 style="font-size: 11px;font-weight: bold;">Open Complaints</h6>
+                            <a href="#" class="btn-danger " style="color:white;padding:3px 20px 3px 20px; border-radius:50px;text-align: center; font-weight: 600;">2</a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4" style="box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;">
+            <div class="row">
+                <div id="y5" class="col-lg-1" style="background-color:red;color:white;">
+                    <b>
+                        <p class="x5"style="color: white;">INCIDENTS</p>
+                    </b>
+                </div>
+                <div class="col-lg-5" style="margin-top: 30px;">
+                    <div class="card-body text-center" style=" border-radius: 10px;box-shadow: 2px 2px 2px 2px #888888;">
+                        <center>
+                            <h6 style="font-size: 11px;font-weight: bold;">Total Reported</h6>
+                            <a href="#" class="btn-danger " style="color:white;padding:3px 20px 3px 20px; border-radius:50px;text-align: center; font-weight: 600;">2</a>
+                        </center>
+                    </div>
+                </div>
+                <div class="col-lg-5" style="margin-top: 30px;">
+                    <div class="card-body text-center" style=" border-radius: 10px;box-shadow: 2px 2px 2px 2px #888888;">
+                        <center>
+                            <h6 style="font-size: 11px;font-weight: bold;">Open Incidents</h6>
+                            <a href="#" class="btn-danger " style="color:white;padding:3px 20px 3px 20px; border-radius:50px;text-align: center; font-weight: 600;">2</a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4" style="box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;">
+            <div class="row">
+                <div id="y6" class="col-lg-1" style="background-color:red;color:white;">
+                    <b>
+                        <p class="x6" style="color: white;">CLIENT INFORMATION</p>
+                    </b>
+                </div>
+                <div class="col-lg-8">
+                    <div class="card-body text-center" style="margin: 35px 0 0 30px; border-radius: 10px;box-shadow: 2px 2px 2px 2px #888888;">
+                        <center>
+                            <h6 style="font-size: 11px;font-weight: bold;">Clients Under Threat</h6>
+                            <a href="#" class="btn-danger " style="color:white;padding:3px 20px 3px 20px; border-radius:50px;text-align: center; font-weight: 600;">2</a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

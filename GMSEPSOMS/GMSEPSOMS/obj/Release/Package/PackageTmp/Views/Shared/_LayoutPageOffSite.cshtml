@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <title>G4S</title>
+
+
+    @*<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>*@
+    <script src="../Scripts/jquery-3.3.1.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    @*<link href="~/Content/StyleSheet4.css" rel="stylesheet" />*@
+    <link href="~/Content/StyleSheet2.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+
+    <script>
+        $(document).ready(function () {
+
+
+            var readURL = function (input) {
+                if (input.files && input.files[0]) {
+                    var reader = new FileReader();
+
+                    reader.onload = function (e) {
+                        $('.profile-pic').attr('src', e.target.result);
+                    }
+
+                    reader.readAsDataURL(input.files[0]);
+                }
+            }
+
+
+            $(".file-upload").on('change', function () {
+                readURL(this);
+            });
+
+            $(".upload-button").on('click', function () {
+                $(".file-upload").click();
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+            $("#rangeDate").flatpickr({
+                mode: 'range',
+                dateFormat: "Y-m-d"
+            });
+
+        });
+    </script>
+
+    <style>
+        #OffSiteBtn {
+            border-radius: 30px;
+            background-color: white;
+            width: 100px;
+            /*box-shadow:5px 7px #cfc4c4*/
+            -moz-box-shadow: 0 0 3px #ccc;
+            -webkit-box-shadow: 0 0 3px #ccc;
+            box-shadow: 0 0 10px #827f7f
+        }
+    </style>
+
+
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+
+                <div class="row">
+                    <div>
+                        <div class="circle">
+                            <!-- User Profile Image -->
+                            <img class="profile-pic">
+
+                            <!-- Default Image -->
+                            <i class="fa fa-user fa-5x"></i>
+                        </div>
+                        <div class="p-image">
+                            <i class="fa fa-camera upload-button"></i>
+                            <input class="file-upload" type="file" accept="image/*" />
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <h5 style="color:black">Chandini</h5>
+                <h5 style="color:black">Branch Manager</h5>
+
+            </div>
+
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="/OffsiteDashboard/OffsiteDashboard">
+                        <i class="fa fa-file-image-o" aria-hidden="true"></i>&nbsp;&nbsp;         DashBoard
+                    </a>
+                </li>
+                <hr style=" margin: 0;   border-top: 2px solid;" />
+                <li>
+                    <a href="/ScheduleVisit/ScheduleVisit"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;         Schedule A Visit</a>
+                </li>
+                <hr style="margin: 0;  border-top: 2px solid;" />
+                <li>
+                    <a href="/ClientReport/ClientReport"><i class="fa fa-file-text-o" aria-hidden="true"></i>&nbsp;&nbsp;         Client Report</a>
+                </li>
+                <hr style="margin: 0;  border-top: 2px solid;" />
+                <li>
+                    <a href="/EmployeeReport/EmployeeReport"><i class="fa fa-file-text-o" aria-hidden="true"></i>&nbsp;&nbsp;         Employee Report</a>
+                </li>
+                <hr style="margin: 0;  border-top: 2px solid;" />
+                <li>
+                    <a href="/SummaryReport/SummaryReport"><i class="fa fa-file-text-o" aria-hidden="true"></i>&nbsp;&nbsp;         Summary Report</a>
+                </li>
+                <hr style="margin: 0;  border-top: 2px solid;" />
+                <li>
+                    <a href="/UserClientMapping/UserClientMapping"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;         User Client Mapping</a>
+                </li>
+                <hr style="margin: 0;  border-top: 2px solid;" />
+                <li>
+                    <a href="/QRmanagement/QRmanagement"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;         QR Management</a>
+                </li>
+                <hr style="margin: 0;  border-top: 2px solid;" />
+                <li>
+                    <a href="#"><i class="fa fa-commenting-o" aria-hidden="true"></i>&nbsp;&nbsp;         Feedback</a>
+                </li>
+                <hr style="margin: 0; border-top: 2px solid;" />
+            </ul>
+            <br />
+            <ul class="list-unstyled CTAs">
+                <li class="fixed-bottom">
+                    <a href="/login/login" style="color:red; padding: 7px 25px 7px 25px;">
+                        LogOut &nbsp;&nbsp; <i class="fa fa-power-off" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Page Content  -->
+        <div id="main" style="width:100%;">
+            <div id="content">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <span style=" background-color: red !important; border-color: red !important;width: 40px;"
+                            <button type="button" id="sidebarCollapse" class="btn btn-info">
+                            <i class="fa fa-align-left" aria-hidden="true" ></i>
+                          </button>
+                        </span>
+                        <h1 style="font-size:25px;font-weight:600;color:red;">Operations Management System<span style="font-family:'Georgia-serif;';font-size:30px;font-weight:400;font-style: italic;">  Off Site</span></h1>
+                        <div class="btn-group">
+                            <!--<button type="button" class="btn btn-danger">OnSite</button>-->
+                            <button type="button" class="btn btn-default" id="OffSiteBtn" style="background-color:red;"><span style="color:white;font-family:cursive;font-size:larger;font-style:italic"><a href="/dashboard/index/">On Site</a></span></button>
+                        </div>
+                        <div class="logo">
+                            <img src="../Images/1200px-G4S_(logo).svg.png" alt="G4S" width="80" height="80" />
+                        </div>
+                    </div>
+                </nav>
+                <div class="row2dropdown">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   
+   
+
+
+</body>
+
+
+</html>

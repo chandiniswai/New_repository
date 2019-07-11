@@ -1,0 +1,90 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = null;
+}
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="~/Content/Login.css" rel="stylesheet" />
+    <script>
+        $(document).ready(function () {
+           $('#loginBtn').on('click', function () {
+                var UserName = document.getElementById('Uname').value;
+               var Passwrd = document.getElementById('Pwd').value;
+          
+               $.ajax
+              ({
+                    type: "POST",
+                    url: "/Login/LoginIn",
+                    contentType: "application/json; charset=utf-8",
+                    data: '{"UserName":"' + UserName + '","Passwrd":"' + Passwrd + '"}',
+                    success: function (result, status, xhr) {
+
+                       
+                    },
+
+              });
+
+
+
+            });
+
+
+        });
+    </script>
+    
+</head>
+
+<body>
+
+    <div class="container ">
+        <div class=" row">
+            <div class="col-lg-6 login-form-1 ">
+                <img src="~/Images/g4s_logo.png" class="g4simage img-responsive" /><br />
+                <p class="logocaption"><b>Securing Your Wolrd</b></p>          
+                <img src="~/Images/map_image.png"  class="map img-responsive" />
+                <p class="mapcaption">Operations Management System</p>
+            </div>
+            <div class="col-lg-6 login-form-2">
+                <h1>LOGIN</h1>
+                <form method="post" action="/Login/LoginIn">
+                    <div class="form-group">
+                        <label>
+                            USERNAME
+                        </label>
+                        <input type="text" class="form-control" placeholder="Enter Your Clock Number" id="Uname" name="UserName" />
+                    </div>
+
+                    <div class="form-group">
+                        <label>
+                            PASSWORD
+                        </label>
+                        <input type="password" class="form-control input-sm" placeholder="Enter Your Password" id="Pwd" name="Pwd" />
+
+                    </div>
+
+                    @*<div class="checkbox">
+                        <label><input type="checkbox" name="">&nbsp;&nbsp;Remember Me</label>
+                        <a href="#" class="btnForgetPwd ">Forget Password?</a>
+                    </div>*@
+                    <br />
+                    <div class="form-group ">
+                        <center> <input type="submit" class="btnSubmit" id="loginBtn" /></center>
+                    </div>
+                </form>
+              
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,647 @@
+﻿
+@{
+   
+}
+
+<style>
+    /*body{
+        overflow:hidden
+    }*/
+</style>
+    <link href="~/Content/StyleSheet4.css" rel="stylesheet" />
+
+
+
+    <body>
+        <div class="row">
+            <div class="col-lg-4 col-sm-12">
+                <div class="hub-dropdown">
+                    <select class="form-control">
+                        <option value="0"> Hub</option>
+                        <option value="1">Bangalore</option>
+                    </select>
+                </div>
+            </div>
+            <div class=" col-lg-4 col-sm-12">
+                <div class="Branch-dropdown">
+                    <select class="form-control">
+                        <option value="0"> Branch</option>
+                        <option value="1">bannerghatta</option>
+                    </select>
+                </div>
+            </div>
+            <div class=" col-lg-4 col-sm-12">
+                <div class="Customer-dropdown">
+                    <select class="form-control">
+                        <option value="0"> Customer</option>
+                        <option value="1">Google</option>
+                    </select>
+                </div>
+            </div>
+            </div>
+        <br/>
+        <div class="row">
+            <div class=" col-lg-2 col-sm-12">  </div>
+            <div class=" col-lg-4 col-sm-12">
+                <div class="Customer-dropdown">
+                    <select class="form-control">
+                        <option value="0"> Assignment ID & Adress</option>
+                        <option value="1">Google</option>
+                    </select>
+                </div>
+            </div>
+            <div class=" col-lg-4 col-sm-12">
+                <div class="date-dropdown">
+                    <input type="text" id="rangeDate" class="form-control" placeholder=" Date " data-input style="background-color:white;">
+                    <i class="fa fa-calendar" aria-hidden="true" style="float:right;margin: -30px 15px 0 0;"></i>
+                </div>
+            </div>
+            <div class=" col-lg-2 col-sm-12">  </div>
+        </div>
+      
+        <div id="main">
+            <div class="row" style="background-color:red;margin:0px;">
+                <div class="col-lg-9 col-md-9 col-sm-9">
+                    <h5 style="padding: 1% 0 1% 0;color: white;text-align: center;margin-left: 35%;">Detailed Report</h5>
+                </div>
+                <div id="MQ1" class="col-lg-3 col-md-3 col-sm-3" style="text-align:right;">
+                    <i class="fa fa-file-pdf-o circle-icon /" aria-hidden="true" style="color:red"></i>
+                    <i class="fa fa-file-excel-o circle-icon /" aria-hidden="true" style="color:green;"></i>
+                </div>
+            </div>
+            <br />
+            <div class="div1 ">
+                <table class="table1">
+                    <thead>
+                        <tr>
+
+                            <th> Customer Name</th>
+
+                            <th>Customer Code</th>
+                            <th> Assignment Address </th>
+                            <th>  Assignment Id</th>
+                            <th> Duty Date</th>
+                            <th>Shift Code</th>
+                            <th>Contracted Manpower</th>
+                            <th>Contracted Hrs</th>
+                            <th>Scheduled Manpower</th>
+                            <th>Performed Hours</th>
+                            <th>Authorized/Not Authorized</th>
+                            <th>Regular Additional deployment Count</th>
+                            <th>Regular Additional deployment HRS</th>
+                            <th>Unscheduled Additional deployment Count</th>
+                            <th>Unscheduled Additional deployment HRS</th>
+                            <th>Temporary Additional deployment Count</th>
+                            <th>Temporary Additional deployment HRS</th>
+                            <th>No. of Replaced by cases</th>
+                            <th>No. of Service Decrease Cases</th>
+                            <th>Hrs. of Service Decrease Cases</th>
+                            <th>No. of Vacant Post</th>
+                            <th>Hrs. of Vacant Post</th>
+
+                            <th> No. of Shift Continued (OT)</th>
+
+                            <th>Designation</th>
+                            <th> ApprovedBy</th>
+                            <th>Approved Person Name</th>
+                        </tr>
+                    </thead>
+                    <tbody class="aa3">
+                        <tr>
+
+
+                            <th>AdviceAmerica Software Development Center</th>
+                            <td>17533</td>
+                            <td>23 and 24 3rd Floor AMR Tech Park</td>
+                            <td>A1-BAN</td>
+                            <td>6/10/2019</td>
+                            <td> N</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> Authorized</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 1</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td>Operation Officer</td>
+                            <td>  439292</td>
+                            <td>  SUBRAMANYAM C</td>
+                        </tr>
+                        <tr>
+
+                            <th>AdviceAmerica Software Development Center</th>
+                            <td>17533</td>
+                            <td>23 and 24 3rd Floor AMR Tech Park</td>
+                            <td>A1-BAN</td>
+                            <td>6/10/2019</td>
+                            <td> N</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> Authorized</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 1</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td>Operation Officer</td>
+                            <td>  439292</td>
+                            <td>  SUBRAMANYAM C</td>
+                        </tr>
+                        <tr>
+
+                            <th>AdviceAmerica Software Development Center</th>
+                            <td>17533</td>
+                            <td>23 and 24 3rd Floor AMR Tech Park</td>
+                            <td>A1-BAN</td>
+                            <td>6/10/2019</td>
+                            <td> N</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> Authorized</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 1</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td>Operation Officer</td>
+                            <td>  439292</td>
+                            <td>  SUBRAMANYAM C</td>
+                        </tr>
+                        <tr>
+
+                            <th>AdviceAmerica Software Development Center</th>
+                            <td>17533</td>
+                            <td>23 and 24 3rd Floor AMR Tech Park</td>
+                            <td>A1-BAN</td>
+                            <td>6/10/2019</td>
+                            <td> N</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> Authorized</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 1</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td>Operation Officer</td>
+                            <td>  439292</td>
+                            <td>  SUBRAMANYAM C</td>
+                        </tr>
+                        <tr>
+
+                            <th>AdviceAmerica Software Development Center</th>
+                            <td>17533</td>
+                            <td>23 and 24 3rd Floor AMR Tech Park</td>
+                            <td>A1-BAN</td>
+                            <td>6/10/2019</td>
+                            <td> N</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> Authorized</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 1</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td>Operation Officer</td>
+                            <td>  439292</td>
+                            <td>  SUBRAMANYAM C</td>
+                        </tr>
+                        <tr>
+
+                            <th>AdviceAmerica Software Development Center</th>
+                            <td>17533</td>
+                            <td>23 and 24 3rd Floor AMR Tech Park</td>
+                            <td>A1-BAN</td>
+                            <td>6/10/2019</td>
+                            <td> N</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> Authorized</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 1</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td>Operation Officer</td>
+                            <td>  439292</td>
+                            <td>  SUBRAMANYAM C</td>
+                        </tr>
+                        <tr>
+
+                            <th>AdviceAmerica Software Development Center</th>
+                            <td>17533</td>
+                            <td>23 and 24 3rd Floor AMR Tech Park</td>
+                            <td>A1-BAN</td>
+                            <td>6/10/2019</td>
+                            <td> N</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> Authorized</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 1</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td>Operation Officer</td>
+                            <td>  439292</td>
+                            <td>  SUBRAMANYAM C</td>
+                        </tr>
+                        <tr>
+
+                            <th>AdviceAmerica Software Development Center</th>
+                            <td>17533</td>
+                            <td>23 and 24 3rd Floor AMR Tech Park</td>
+                            <td>A1-BAN</td>
+                            <td>6/10/2019</td>
+                            <td> N</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> Authorized</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 1</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td>Operation Officer</td>
+                            <td>  439292</td>
+                            <td>  SUBRAMANYAM C</td>
+                        </tr>
+                        <tr>
+
+                            <th>AdviceAmerica Software Development Center</th>
+                            <td>17533</td>
+                            <td>23 and 24 3rd Floor AMR Tech Park</td>
+                            <td>A1-BAN</td>
+                            <td>6/10/2019</td>
+                            <td> N</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> Authorized</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 1</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td>Operation Officer</td>
+                            <td>  439292</td>
+                            <td>  SUBRAMANYAM C</td>
+                        </tr>
+                        <tr>
+
+                            <th>AdviceAmerica Software Development Center</th>
+                            <td>17533</td>
+                            <td>23 and 24 3rd Floor AMR Tech Park</td>
+                            <td>A1-BAN</td>
+                            <td>6/10/2019</td>
+                            <td> N</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> Authorized</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 1</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td>Operation Officer</td>
+                            <td>  439292</td>
+                            <td>  SUBRAMANYAM C</td>
+                        </tr>
+                        <tr>
+
+                            <th>AdviceAmerica Software Development Center</th>
+                            <td>17533</td>
+                            <td>23 and 24 3rd Floor AMR Tech Park</td>
+                            <td>A1-BAN</td>
+                            <td>6/10/2019</td>
+                            <td> N</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> Authorized</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 1</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td>Operation Officer</td>
+                            <td>  439292</td>
+                            <td>  SUBRAMANYAM C</td>
+                        </tr>
+                        <tr>
+
+                            <th>AdviceAmerica Software Development Center</th>
+                            <td>17533</td>
+                            <td>23 and 24 3rd Floor AMR Tech Park</td>
+                            <td>A1-BAN</td>
+                            <td>6/10/2019</td>
+                            <td> N</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> Authorized</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 1</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td>Operation Officer</td>
+                            <td>  439292</td>
+                            <td>  SUBRAMANYAM C</td>
+                        </tr>
+                        <tr>
+
+                            <th>AdviceAmerica Software Development Center</th>
+                            <td>17533</td>
+                            <td>23 and 24 3rd Floor AMR Tech Park</td>
+                            <td>A1-BAN</td>
+                            <td>6/10/2019</td>
+                            <td> N</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> Authorized</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 1</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td>Operation Officer</td>
+                            <td>  439292</td>
+                            <td>  SUBRAMANYAM C</td>
+                        </tr>
+                        <tr>
+
+                            <th>AdviceAmerica Software Development Center</th>
+                            <td>17533</td>
+                            <td>23 and 24 3rd Floor AMR Tech Park</td>
+                            <td>A1-BAN</td>
+                            <td>6/10/2019</td>
+                            <td> N</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> Authorized</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 1</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td>Operation Officer</td>
+                            <td>  439292</td>
+                            <td>  SUBRAMANYAM C</td>
+                        </tr>
+                        <tr>
+
+                            <th>AdviceAmerica Software Development Center</th>
+                            <td>17533</td>
+                            <td>23 and 24 3rd Floor AMR Tech Park</td>
+                            <td>A1-BAN</td>
+                            <td>6/10/2019</td>
+                            <td> N</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> Authorized</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 1</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td>Operation Officer</td>
+                            <td>  439292</td>
+                            <td>  SUBRAMANYAM C</td>
+                        </tr>
+                        <tr>
+
+                            <th>AdviceAmerica Software Development Center</th>
+                            <td>17533</td>
+                            <td>23 and 24 3rd Floor AMR Tech Park</td>
+                            <td>A1-BAN</td>
+                            <td>6/10/2019</td>
+                            <td> N</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> Authorized</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 1</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td>Operation Officer</td>
+                            <td>  439292</td>
+                            <td>  SUBRAMANYAM C</td>
+                        </tr>
+                        <tr>
+
+                            <th>AdviceAmerica Software Development Center</th>
+                            <td>17533</td>
+                            <td>23 and 24 3rd Floor AMR Tech Park</td>
+                            <td>A1-BAN</td>
+                            <td>6/10/2019</td>
+                            <td> N</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> Authorized</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 1</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td>Operation Officer</td>
+                            <td>  439292</td>
+                            <td>  SUBRAMANYAM C</td>
+                        </tr>
+                        <tr>
+
+                            <th>AdviceAmerica Software Development Center</th>
+                            <td>17533</td>
+                            <td>23 and 24 3rd Floor AMR Tech Park</td>
+                            <td>A1-BAN</td>
+                            <td>6/10/2019</td>
+                            <td> N</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> 1</td>
+                            <td> 12</td>
+                            <td> Authorized</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 1</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td> 0</td>
+                            <td>Operation Officer</td>
+                            <td>  439292</td>
+                            <td>  SUBRAMANYAM C</td>
+                        </tr>
+
+
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+
+
+    </body>
+
+

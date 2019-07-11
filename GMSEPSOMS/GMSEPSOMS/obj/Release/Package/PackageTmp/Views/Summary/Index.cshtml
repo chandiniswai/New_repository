@@ -1,0 +1,278 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="~/Content/StyleSheet4.css" rel="stylesheet" />
+
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+        <div class="row">
+            <div class="col-lg-3 col-sm-12">
+                <div class="hub-dropdown">
+                    <select class="form-control">
+                        <option value="0"> Hub</option>
+                        <option value="1">Bangalore</option>
+                    </select>
+                </div>
+            </div>
+            <div class=" col-lg-3 col-sm-12">
+                <div class="Branch-dropdown">
+                    <select class="form-control">
+                        <option value="0"> Branch</option>
+                        <option value="1">bannerghatta</option>
+                    </select>
+                </div>
+            </div>
+            <div class=" col-lg-3 col-sm-12">
+                <div class="Customer-dropdown">
+                    <select class="form-control">
+                        <option value="0"> Customer</option>
+                        <option value="1">Google</option>
+                    </select>
+                </div>
+            </div>
+            <div class=" col-lg-3 col-sm-12">
+                <div class="date-dropdown">
+                    <input type="text" id="rangeDate" class="form-control" placeholder=" Date " data-input style="background-color:white;">
+                    <i class="fa fa-calendar" aria-hidden="true" style="float:right;margin: -30px 15px 0 0;"></i>
+                </div>
+            </div>
+        </div>
+        <br />
+
+
+        <div id="main">
+
+
+
+            <div class="row" style="background-color:red;margin:0px;">
+                <div class="col-lg-9 col-md-9 col-sm-9">
+                    <h5 style="padding: 1% 0 0 23%;color: white;text-align: center;">  Summary Report</h5>
+                </div>
+                <div id="MQ1" class="col-lg-3 col-md-3 col-sm-3" style="text-align:right;">
+                    <i class="fa fa-file-pdf-o circle-icon /" aria-hidden="true" style="color:red"></i>
+                    <i class="fa fa-file-excel-o circle-icon /" aria-hidden="true" style="color:green;"></i>
+                </div>
+            </div>
+            <br />
+            <table>
+                <tr>
+                    <td rowspan="9" style="background-color:red;">
+                        <div class="rotate" style="margin: 0 -55px 0 -50px;border-radius: 30px 0 0 30px; font-size: 16px;letter-spacing:1px; color: white;font-weight:600;">PERFORMANCE</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Total Manpower Available (Active)</td>
+                    <td>16567</td>
+                    <td>Total Manpower Available (Active) - Prvs Day</td>
+                    <td>975</td>
+                </tr>
+                <tr>
+                    <td>Contracted Manpower</td>
+                    <td>16444</td>
+                    <td>Contracted Hours</td>
+                    <td>148303</td>
+                </tr>
+                <tr>
+                    <td>Scheduled Manpower (Total)</td>
+                    <td>16444</td>
+                    <td>Scheduled Hours</td>
+                    <td>148303</td>
+                </tr>
+                <tr>
+                    <td>Scheduled Manpower (Accuracy)</td>
+                    <td>16444</td>
+                    <td>Scheduling Accuracy</td>
+                    <td>148303</td>
+                </tr>
+                <tr>
+                    <td>Performed Manpower</td>
+                    <td>16444</td>
+                    <td>Performed Hours %</td>
+                    <td>148303</td>
+                </tr>
+                <tr>
+                    <td>Manpower On Leave</td>
+                    <td>16444</td>
+                    <td>Manpower On Weekly Off</td>
+                    <td>148303</td>
+                </tr>
+                <tr>
+                    <td>Manpower Shortage (Contracted MP - Scheduled MP)</td>
+                    <td>16444</td>
+                    <td>Manpower Shortage Hrs. (Contracted - Scheduled Hrs)</td>
+                    <td>148303</td>
+                </tr>
+                <tr>
+                    <td>Manpower Shortage (Vacant Post + Under Performed)</td>
+                    <td>16444</td>
+                    <td>Manpower On Weekly Off</td>
+                    <td>148303</td>
+                </tr>
+
+
+            </table>
+            <br />
+            <div class="row">
+                <div class="col-lg-6">
+                    <table>
+                        <tr>
+                            <td rowspan="9" style="background-color:red;">
+                                <div class="rotate" style="margin:0px -35px 0 -35px;font-size: 16px;letter-spacing:1px; color: white;font-weight:600;">DEVIATION</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Count</td>
+                            <td>Hours</td>
+
+                        </tr>
+                        <tr>
+                            <td>Shift Continuation</td>
+                            <td>0</td>
+                            <td>0</td>
+
+                        </tr>
+                        <tr>
+                            <td>Vacant Post</td>
+                            <td>56</td>
+                            <td>476</td>
+
+                        </tr>
+                        <tr>
+                            <td>Additional Deployment:</td>
+                            <td></td>
+                            <td></td>
+
+                        </tr>
+                        <tr>
+                            <td> &nbsp; - Temporary (Service Increase)</td>
+                            <td>10</td>
+                            <td>79</td>
+
+                        </tr>
+                        <tr>
+                            <td> &nbsp; - Regular (Service Increase)</td>
+                            <td>10</td>
+                            <td>79</td>
+                        </tr>
+                        <tr>
+                            <td> &nbsp; - Regular (Non Scheduled)</td>
+                            <td>10</td>
+                            <td>79</td>
+                        </tr>
+                        <tr>
+                            <td>Service Decrease</td>
+                            <td>10</td>
+                            <td>79</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id="s2" class="col-lg-6">
+                    <table>
+                        <tr>
+                            <td rowspan="9" style="background-color:red;">
+                                <div class="rotate" style="margin:0px -46px 0 -46px;font-size: 16px;letter-spacing:1px; color: white;font-weight:600;">ATTENDANCE</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Total No. of Assignments (Active)</td>
+                            <td>1536</td>
+
+                        </tr>
+                        <tr>
+                            <td>No. of Assignments Authorised</td>
+                            <td>813</td>
+
+                        </tr>
+                        <tr>
+                            <td>Pending Authorisation</td>
+                            <td>723</td>
+
+                        </tr>
+                        <tr>
+                            <td>Assignments Authorised By OM %</td>
+                            <td>1.38</td>
+
+                        </tr>
+                        <tr>
+                            <td>Assignments Authorised By OO %</td>
+                            <td>33.7</td>
+
+                        </tr>
+                        <tr>
+                            <td>Assignments Authorised By Supervisor %</td>
+                            <td>66.7</td>
+
+                        </tr>
+                        <tr>
+                            <td>Assignments Authorised By Roster Exec % </td>
+                            <td>0</td>
+
+                        </tr>
+                        <tr>
+                            <td> &nbsp;</td>
+                            <td> &nbsp; </td>
+
+                        </tr>
+                    </table>
+
+                </div>
+
+
+            </div>
+            <br />
+            <table>
+                <tr>
+                    <td rowspan="5" style="background-color:red;">
+                        <div id="s3" class="rotate" style="text-align: center; font-size: 16px;letter-spacing:1px; color: white;font-weight:600;">
+                            REVENUE<br>LOSS
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Estimated Revenue Loss (WIP)</td>
+                    <td>FTD</td>
+                    <td>MTD</td>
+
+                </tr>
+                <tr>
+                    <td>Due to Vacant Post</td>
+                    <td>0</td>
+                    <td>0</td>
+
+                </tr>
+                <tr>
+                    <td>Due to Shift Continuation</td>
+                    <td>0</td>
+                    <td>0</td>
+
+                </tr>
+                <tr>
+                    <td>Due to Manpower shortage (Contract vs Schedule)</td>
+                    <td>0</td>
+                    <td>0</td>
+
+                </tr>
+            </table>
+
+
+        </div>
+    </div>
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 800);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }
+    </script>
+</body>
+
+

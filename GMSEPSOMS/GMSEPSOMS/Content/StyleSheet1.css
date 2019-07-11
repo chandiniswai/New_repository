@@ -1,0 +1,438 @@
+﻿/*
+    DEMO STYLE
+*/
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    padding: 5px 5px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: red;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+    #sidebar.active {
+        margin-left: -250px;
+    }
+
+    #sidebar .sidebar-header {
+        padding: 20px;
+        background: #fff;
+    }
+
+    #sidebar ul.components {
+        padding: 20px 0;
+        border-bottom: 0px solid #47748b !important;
+    }
+
+    #sidebar ul p {
+        color: #fff;
+        padding: 10px;
+    }
+
+    #sidebar ul li a {
+        padding: 10px;
+        font-size: 1.1em;
+        display: block;
+        color: white;
+    }
+
+        #sidebar ul li a:hover {
+            color: #7386D5;
+            background: #fff;
+        }
+
+    #sidebar ul li.active > a,
+    a[aria-expanded="true"] {
+        color: #fff;
+        background: #6d7fcc;
+    }
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+    ul.CTAs a {
+        text-align: center;
+        font-size: 19px !important;
+        display: block;
+        border-radius: 30px;
+        margin-bottom: 5px;
+        background-color: white;
+        color: red;
+    }
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article,
+a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+
+.t1 {
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 0 0 5px;
+}
+
+
+/* ---------------------------------------------------
+    UPLOAD IMAGE
+----------------------------------------------------- */
+.profile-pic {
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+}
+
+.file-upload {
+    display: none;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    display: flex;
+}
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        transition: 0.3s;
+    }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+/*@media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+
+                .sidenav a {
+                    font-size: 18px;
+                }
+        }*/
+
+.circle {
+    border-radius: 1000px !important;
+    overflow: hidden;
+    width: 128px;
+    height: 128px;
+    margin-left: 17%;
+    border: 3px solid #f8f9fa;
+}
+
+#c123 {
+    border-radius: 1000px !important;
+    width: 65px;
+    height: 65px;
+    border: 3px solid #f8f9fa;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.p-image {
+    position: static;
+    margin: -30% 0 0 100%;
+    color: #666666;
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+
+    .p-image:hover {
+        transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+    }
+
+.upload-button {
+    font-size: 1.2em;
+}
+
+    .upload-button:hover {
+        transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+        color: #999;
+    }
+
+.circle-icon {
+    background: white;
+    padding: 5px;
+    border-radius: 60%;
+}
+
+/* ---------------------------------------------------
+    SIDEBOX STYLE
+----------------------------------------------------- */
+/*.rotate {
+    -webkit-transform: rotate(-90deg);
+    font: bold 15px Sans-Serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: #f00;
+    color: #fff;
+    float: left;
+    line-height: 24px;
+    
+}
+
+.s1 {
+    vertical-align: middle;
+    text-align: center;
+    word-wrap: break-word;
+    writing-mode:vertical-rl !important;
+
+}*/
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 576px) {
+
+    #MQ1 {
+        margin: -35px 0 0 0;
+    }
+}
+
+@media (min-width: 576px) {
+
+    #MQ1 {
+        margin: 10px 0 0 0;
+    }
+}
+
+@media (max-width: 991px) {
+
+    #s2 {
+        margin-top: 3%;
+    }
+}
+
+@media (max-width: 1062px) {
+
+    #s3 {
+        margin-top: 0 -23px 0 -20px;
+    }
+}
+
+@media (min-width: 1062px) {
+
+    #s3 {
+        margin: 0 -35px 0 -35px;
+    }
+}
+
+/* ---------------------------------------------------
+    TABLE STYLE
+----------------------------------------------------- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 35px #827f7f;
+}
+
+td {
+    border-collapse: collapse;
+    border: 1px #c3c7cc solid;
+    padding: 1px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.rotate {
+    /* FF3.5+ */
+    -moz-transform: rotate(-90.0deg);
+    /* Opera 10.5 */
+    -o-transform: rotate(-90.0deg);
+    /* Saf3.1+, Chrome */
+    -webkit-transform: rotate(-90.0deg);
+    /* IE6,IE7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)";
+    /* Standard */
+    transform: rotate(-90.0deg);
+}
+
+/* ---------------------------------------------------
+    TABLE SCROLL STYLE
+----------------------------------------------------- */
+
+.zui-table {
+    border-right: solid 1px #DDEFEF;
+    border-collapse: separate;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+}
+
+    .zui-table thead th {
+        border-right: solid 1px #DDEFEF;
+        background-color: red;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    .zui-table tbody td {
+        border-left: solid 1px #DDEFEF;
+        border-right: solid 1px #DDEFEF;
+        border-bottom: solid 1px #DDEFEF;
+        padding: 10px;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+.zui-wrapper {
+    position: relative;
+}
+
+.zui-scroller {
+    margin-left: 440px;
+    margin-right: 280px;
+    overflow-x: scroll;
+    overflow-y: visible;
+    padding-bottom: 5px;
+    /*width: 300px;*/
+}
+
+.zui-table .zui-sticky-col {
+    border-left: solid 1px #DDEFEF;
+    border-right: solid 1px #DDEFEF;
+    left: 0;
+    position: absolute;
+    top: auto;
+    width: 40px;
+}
+
+.zui-table .zui-sticky-col1 {
+    border-left: solid 1px #DDEFEF;
+    border-right: solid 1px #DDEFEF;
+    left: 40px;
+    position: absolute;
+    top: auto;
+    width: 400PX
+}
+
+.zui-table .zui-sticky-col2 {
+    border-left: solid 1px #DDEFEF;
+    border-right: solid 1px #DDEFEF;
+    right: 0px;
+    position: absolute;
+    top: auto;
+    width: 180px;
+}
+
+.zui-table .zui-sticky-col3 {
+    border-left: solid 1px #DDEFEF;
+    border-right: solid 1px #DDEFEF;
+    right: 180px;
+    position: absolute;
+    top: auto;
+    width: 100px;
+}

@@ -1,0 +1,422 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPageOffSite.cshtml";
+}
+
+    <head>
+        <link href="~/Content/StyleSheet3.css" rel="stylesheet" />
+        <style>
+            .card {
+                height: 45px;
+                border-radius: 20px;
+            }
+
+            h6 {
+                font-size: 12px;
+            }
+        </style>
+
+        @*<script>
+            var currentDate = new Date(),
+                day = currentDate.getDate(),
+                month = currentDate.getMonth() + 1,
+                year = currentDate.getFullYear();
+            document.write(day + "/" + month + "/" + year)
+        </script>*@
+       
+    </head>
+    <div class="container-fluid">
+        <p id="demo"></p>
+        <div class="row">
+            <div class=" col-lg-4 col-sm-12">
+                <div class="">
+                    <select class="form-control">
+                        <option value="0">Select Branch</option>
+                        <option value="1">bannerghatta</option>
+                    </select>
+                </div>
+            </div>
+            <div class=" col-lg-4 col-sm-12">
+                <div class="">
+                    <select class="form-control">
+                        <option value="0">Select Customer</option>
+                        <option value="1">Google</option>
+                    </select>
+                </div>
+            </div>
+            <div class=" col-lg-4 col-sm-12">
+                <div class="">
+                    <input type="text" id="rangeDate" placeholder="Date " data-input class="form-control" style="background-color:white;">
+                    <i class="fa fa-calendar" aria-hidden="true" style="float:right;margin: -30px 15px 0 0;color:#ff243a;"></i>
+
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="row" id="test" style="    width: 94%; margin: 0 auto;">
+            <div class="a2">
+                <p>SITE INSPECTION</p>
+            </div>
+            <div class="col-md-6 col-sm-9 col-xs-9 col-lg-7" style="padding: 1% 2%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;height:200px;">
+                <div class="row" style="    margin-left: -6%;">
+                    <div class="col-md-4 col-lg-6 col-sm-12">
+                        <ul>
+                            <li class="list-group-item d-flex justify-content-between align-items-center badge-pill" style="box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;    color: red;border-radius:39px;padding:17px !important;
+    font-size: 17px;">
+                                Schedule
+                                <span class="badge badge-pill">
+                                    <a href="#" class="btn btn-ad" style="color: white; border-radius: 20px;
+    width: 59px !important;
+    margin: -6% 25%;
+    padding: 0% 38%;">0</a>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-lg-6 col-sm-12">
+
+                        <button type="button" class=" d-flex justify-content-between align-items-center badge-pill" style="background: white;
+    border: none;
+    color: red;
+     padding: 2% 4%;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;">
+                            Completed <br>(scheduled & completed)
+                            <span class="badge badge-pill">
+                                <a href="#" class="btn btn-ad" style="color: white; border-radius: 20px;
+    width: 59px !important;
+       margin: -6% 18%;
+    padding: 0% 38%;">0</a>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+                <h4 style="text-align:center;color:red;font-size:20px;">Details Of Site Inspection</h4>
+
+                <div class="col-md-12 mt-4">
+                    <div class="row ">
+                        <div class="col-md-4 col-lg-3 col-sm-12">
+                            <div class="card" style="    height: 100%;width:113%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;border-radius:10px !important;">
+                                <div class="card-body" style="text-align: center;margin: -5%;">
+                                    <h6 style="color:red;">Night</h6>
+                                    <a href="#" class="btn btn-ad" style="color: white;margin: auto; border-radius: 20px;width: 50px;">0</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-sm-12">
+                            <div class="card" style="    height:100%;width:113%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;border-radius:10px !important;">
+                                <div class="card-body" style="text-align: center;margin: -5%;">
+                                    <h6 style="color:red;">Night</h6>
+                                    <a href="#" class="btn btn-ad" style="color: white;margin: auto; border-radius: 20px;width: 50px;">0</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-sm-12">
+                            <div class="card" style="    height: 100%;width:113%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;border-radius:10px !important;">
+                                <div class="card-body" style="text-align: center;margin: -5%;">
+                                    <h6 style="color:red;">Night</h6>
+                                    <a href="#" class="btn btn-ad" style="color: white;margin: auto; border-radius: 20px;width: 50px;">0</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-sm-12">
+                            <div class="card" style="    height: 100%;width:113%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;border-radius:10px !important;">
+                                <div class="card-body" style="text-align: center;margin: -5%;">
+                                    <h6 style="color:red;">Night</h6>
+                                    <a href="#" class="btn btn-ad" style="color: white;margin: auto; border-radius: 20px;width: 50px;">0</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xs-9  btn-new m1" style="height:200px;">
+                <div class="row">
+                    <div class="col-md-12 col-lg-6 col-sm-12">
+                        <div class="card" style="height: 85%;width:88%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                            <div class="card-body" style="text-align: center;">
+                                <h6 style="color:red;">Meetings</h6>
+                                <a href="#" class="btn btn-ad" style="color: white; border-radius: 20px;width: 45px;margin-top:-7px">0</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6 col-sm-12">
+                        <div class="card" style="height:85%;width:88%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                            <div class="card-body" style="text-align: center;">
+                                <h6 style="color:red;">Threat</h6>
+                                <a href="#" class="btn btn-ad" style="color: white; border-radius: 20px;width: 45px;margin-top:-7px">0</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-2" style="justify-content:center;">
+                    <div class="col-md-12 col-lg-6 col-sm-12">
+                        <div class="card" style="height:85%;width:88%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                            <div class="card-body" style="text-align: center;">
+                                <h6 style="color:red;">Variances</h6>
+                                <a href="#" class="btn btn-ad" style="color: white; border-radius: 20px;width: 45px;margin-top:-7px">0</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-2">
+                    <div class="col-md-12 col-lg-6 col-sm-12">
+                        <div class="card" style="height: 85%;width:88%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                            <div class="card-body" style="text-align: center;">
+                                <h6 style="color:red;">Trainings</h6>
+                                <a href="#" class="btn btn-ad" style="color: white; border-radius: 20px;width: 45px;margin-top:-7px">01</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6 col-sm-12">
+                        <div class="card" style="height:85%;width:88%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                            <div class="card-body" style="text-align: center;">
+                                <h6 style="color:red;">Briefings</h6>
+                                <a href="#" class="btn btn-ad" style="color: white; border-radius: 20px;width: 45px;margin-top:-7px">0</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div>
+            <div class="row" style="box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important; width: 94%; margin: 0 auto;">
+                <div class="a2" style="height:206px;">
+                    <p>COMPLAINTS</p>
+                </div>
+                <div class="col-md-11" style="    height: 206px;">
+                    <div class="vl"></div>
+                    <div class="col-md-12" style="margin-top: 1%;">
+                        <h4 style="text-align:center;color:red;font-size:20px;">Details Of Complaints</h4>
+                        <div class="row">
+
+                            <div id="a1" class="col-md-6 col-lg-2 col-sm-12" style="margin-top:-1%;">
+                                <div class="card" style="height: 100%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                                    <div class="card-body" style="text-align: center;">
+                                        <h6 style="color:red;">Total Complaints</h6>
+                                        <a href="#" class="btn btn-ad" style="color: white; border-radius: 20px;width: 45px;margin-top: 5px;">0</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="a1" class="col-md-6 col-lg-2 col-sm-12">
+                                <div class="card " style="height: 91%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                                    <div class="card-body" style="text-align: center;">
+                                        <h6 style="color:red;">Shortage</h6>
+                                        <a href="#" class="btn  btn-ad" style="color: white; border-radius: 20px;width: 50px;margin-top: 0;">0</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="a1" class="col-md-6 col-lg-2 col-sm-12">
+                                <div class="card " style="height: 91%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                                    <div class="card-body" style="text-align: center;">
+                                        <h6 style="color:red;">Sleeping</h6>
+                                        <a href="#" class="btn  btn-ad" style="color: white; border-radius: 20px;width: 50px;margin-top: 0;">0</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="a1" class="col-md-6 col-lg-2 col-sm-12">
+                                <div class="card " style="height: 91%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                                    <div class="card-body" style="text-align: center;">
+                                        <h6 style="color:red;">Training</h6>
+                                        <a href="#" class="btn  btn-ad" style="color: white; border-radius: 20px;width: 50px;margin-top: 0;">0</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="a1" class="col-md-6 col-lg-2 col-sm-12">
+                                <div class="card " style="height: 91%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                                    <div class="card-body" style="text-align: center;">
+                                        <h6 style="color:red;">Comp. Issues</h6>
+                                        <a href="#" class="btn  btn-ad" style="color: white; border-radius: 20px;width: 50px;margin-top: 0;">0</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="a1" class="col-md-6 col-lg-2 col-sm-12">
+                                <div class="card " style="height: 91%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                                    <div class="card-body" style="text-align: center;">
+                                        <h6 style="color:red;">Others</h6>
+                                        <a href="#" class="btn  btn-ad" style="color: white; border-radius: 20px;width: 50px;margin-top: 0;">0</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mt-2">
+                        <h4 style="text-align:center;color:red;font-size:20px;">Details Of Open Complaints</h4>
+                        <div class="row" style="margin-top: 1%;">
+                            <div id="a1" class="col-md-6 col-lg-2 col-sm-12" style="margin-top:-1%;">
+                                <div class="card" style="height: 100%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                                    <div class="card-body" style="text-align: center;">
+                                        <h6 style="color:red;">Total Open Complaints</h6>
+                                        <a href="#" class="btn btn-ad" style="color: white; border-radius: 20px;width: 45px;margin-top: 5px;">0</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="a1" class="col-md-6 col-lg-2 col-sm-12">
+                                <div class="card " style="height: 91%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                                    <div class="card-body" style="text-align: center;">
+                                        <h6 style="color:red;">Shortage</h6>
+                                        <a href="#" class="btn  btn-ad" style="color: white; border-radius: 20px;width: 50px;margin-top: 0;">0</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="a1" class="col-md-6 col-lg-2 col-sm-12">
+                                <div class="card " style="height:91%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                                    <div class="card-body" style="text-align: center;">
+                                        <h6 style="color:red;">Sleeping</h6>
+                                        <a href="#" class="btn  btn-ad" style="color: white; border-radius: 20px;width: 50px;margin-top: 0;">0</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="a1" class="col-md-6 col-lg-2 col-sm-12">
+                                <div class="card " style="height: 91%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                                    <div class="card-body" style="text-align: center;">
+                                        <h6 style="color:red;">Training</h6>
+                                        <a href="#" class="btn  btn-ad" style="color: white; border-radius: 20px;width: 50px;margin-top: 0;">0</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="a1" class="col-md-6 col-lg-2 col-sm-12">
+                                <div class="card " style="height: 91%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                                    <div class="card-body" style="text-align: center;">
+                                        <h6 style="color:red;">Comp. Issues</h6>
+                                        <a href="#" class="btn  btn-ad" style="color: white; border-radius: 20px;width: 50px;margin-top: 0;">0</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="a1" class="col-md-6 col-lg-2 col-sm-12">
+                                <div class="card " style="height:91%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                                    <div class="card-body" style="text-align: center;">
+                                        <h6 style="color:red;">Others</h6>
+                                        <a href="#" class="btn  btn-ad" style="color: white; border-radius: 20px;width: 50px;margin-top: 0;">0</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="row" style="box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important; width: 94%; margin: 0 auto;">
+            <div class="a2" style="height:206px;">
+                <p>
+                    INCIDENTS
+                </p>
+            </div>
+            <div class="col-md-11" style="    height: 206px;">
+                <div class="vl"></div>
+
+                <div class="col-md-12" style="margin-top: 1%;">
+                    <h4 style="text-align:center;color:red;font-size:20px;">Details Of Incidents </h4>
+                    <div class="row">
+                        <div id="a1" class="col-md-6 col-lg-2 col-sm-12" style="margin-top:-1%;">
+                            <div class="card" style="height: 100%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                                <div class="card-body" style="text-align: center;">
+                                    <h6 style="color:red;">Total Incidents</h6>
+                                    <a href="#" class="btn btn-ad" style="color: white; border-radius: 20px;width: 45px;margin-top: 5px;">0</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="a1" class="col-md-6 col-lg-2 col-sm-12">
+                            <div class="card " style="height: 91%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                                <div class="card-body" style="text-align: center;">
+                                    <h6 style="color:red;">Theft</h6>
+                                    <a href="#" class="btn  btn-ad" style="color: white; border-radius: 20px;width: 50px;margin-top: 0;">0</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="a1" class="col-md-6 col-lg-2 col-sm-12">
+                            <div class="card " style="height: 91%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                                <div class="card-body" style="text-align: center;">
+                                    <h6 style="color:red;">Damage</h6>
+                                    <a href="#" class="btn  btn-ad" style="color: white; border-radius: 20px;width: 50px;margin-top: 0;">0</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="a1" class="col-md-6 col-lg-2 col-sm-12">
+                            <div class="card " style="height: 91%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                                <div class="card-body" style="text-align: center;">
+                                    <h6 style="color:red;">Fire</h6>
+                                    <a href="#" class="btn  btn-ad" style="color: white; border-radius: 20px;width: 50px;margin-top: 0;">0</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="a1" class="col-md-6 col-lg-2 col-sm-12">
+                            <div class="card " style="height: 91%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                                <div class="card-body" style="text-align: center;">
+                                    <h6 style="color:red;">Negligence</h6>
+                                    <a href="#" class="btn  btn-ad" style="color: white; border-radius: 20px;width: 50px;margin-top: 0;">0</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="a1" class="col-md-6 col-lg-2 col-sm-12">
+                            <div class="card " style="height: 91%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                                <div class="card-body" style="text-align: center;">
+                                    <h6 style="color:red;">Others</h6>
+                                    <a href="#" class="btn  btn-ad" style="color: white; border-radius: 20px;width: 50px;margin-top: 0;">0</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 mt-2">
+                    <h4 style="text-align:center;color:red;font-size:20px;">Details Of Open Incidents</h4>
+                    <div class="row" style="margin-top: 1%;">
+                        <div id="a1" class="col-md-6 col-lg-2 col-sm-12" style="margin-top:-1%;">
+                            <div class="card" style="height: 100%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                                <div class="card-body" style="text-align: center;">
+                                    <h6 style="color:red;">Total Open Incidents</h6>
+                                    <a href="#" class="btn btn-ad" style="color: white; border-radius: 20px;width: 45px;margin-top: 5px;">0</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="a1" class="col-md-6 col-lg-2 col-sm-12">
+                            <div class="card " style="height: 91%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                                <div class="card-body" style="text-align: center;">
+                                    <h6 style="color:red;">Shortage</h6>
+                                    <a href="#" class="btn  btn-ad" style="color: white; border-radius: 20px;width: 50px;margin-top: 0;">0</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="a1" class="col-md-6 col-lg-2 col-sm-12">
+                            <div class="card " style="height:91%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                                <div class="card-body" style="text-align: center;">
+                                    <h6 style="color:red;">Sleeping</h6>
+                                    <a href="#" class="btn  btn-ad" style="color: white; border-radius: 20px;width: 50px;margin-top: 0;">0</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="a1" class="col-md-6 col-lg-2 col-sm-12">
+                            <div class="card " style="height: 91%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                                <div class="card-body" style="text-align: center;">
+                                    <h6 style="color:red;">Training</h6>
+                                    <a href="#" class="btn  btn-ad" style="color: white; border-radius: 20px;width: 50px;margin-top: 0;">0</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="a1" class="col-md-6 col-lg-2 col-sm-12">
+                            <div class="card " style="height: 91%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                                <div class="card-body" style="text-align: center;">
+                                    <h6 style="color:red;">Comp. Issues</h6>
+                                    <a href="#" class="btn  btn-ad" style="color: white; border-radius: 20px;width: 50px;margin-top: 0;">0</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="a1" class="col-md-6 col-lg-2 col-sm-12">
+                            <div class="card " style="height:91%;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;background-color:white;">
+                                <div class="card-body" style="text-align: center;">
+                                    <h6 style="color:red;">Others</h6>
+                                    <a href="#" class="btn  btn-ad" style="color: white; border-radius: 20px;width: 50px;margin-top: 0;">0</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

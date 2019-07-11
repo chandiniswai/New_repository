@@ -1,0 +1,402 @@
+﻿@{
+    ViewBag.tittke = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <style>
+        .btn {
+            color: white;
+        }
+    </style>
+    <script src="~/Scripts/CanvasJS.js"></script>
+    <script>
+        window.onload = function () {
+
+            var chart = new CanvasJS.Chart("chartContainer", {
+                /*theme: "light2",*/ // "light1", "light2", "dark1", "dark2"
+                //exportEnabled: true,
+                animationEnabled: true,
+                height: 200,
+                window: 100,
+                title: {
+                    text: "Deviation in Hours",
+                    fontColor: "#2f4f4f",
+                    fontFamily: "tahoma",
+                    fontWeight: "bold"
+                },
+                data: [{
+                    type: "pie",
+                    startAngle: 26,
+                    toolTipContent: "<b>{y}%</b> ",
+
+                    showInLegend: "true",
+                    legendText: "{label}",
+                    indexLabelFontSize: 16,
+                    indexLabel: "{y}%",
+                    dataPoints: [
+                        { y: 42, label: "Shift Continution" },
+                        { y: 21, label: "Vacant Post" },
+                        { y: 20.5, label: "Additional Deployement Temprory" },
+                        { y: 9, label: "Additional Deployement Scheduled" },
+                        { y: 3.1, label: "Additional Deployement UnSecheduled" },
+                        { y: 4, label: "Service Decrease" }
+                    ]
+                }]
+            });
+            chart.render();
+
+            var chart2 = new CanvasJS.Chart("chartContainer2", {
+                animationEnabled: true,
+                height: 200,
+                window: 100,
+                //title: {
+                //    text: "Estimated Revenue Loss"
+                //},
+                title: {
+                    text: "Estimated Revenue Loss",
+                    fontColor: "#2f4f4f",
+                    fontFamily: "tahoma",
+                    fontWeight: "bold"
+                },
+                axisY: {
+                    title: "FTD (Hrs)",
+                    titleFontColor: "#4F81BC",
+                    lineColor: "#4F81BC",
+                    labelFontColor: "#4F81BC",
+                    tickColor: "#4F81BC"
+                },
+                axisY2: {
+                    title: "MTD (Rs)",
+                    titleFontColor: "#C0504E",
+                    lineColor: "#C0504E",
+                    labelFontColor: "#C0504E",
+                    tickColor: "#C0504E"
+                },
+                toolTip: {
+                    shared: true
+                },
+                legend: {
+                    cursor: "pointer",
+                    itemclick: toggleDataSeries
+                },
+                data: [{
+                    type: "column",
+                    name: "FTD(Hrs)",
+                    legendText: "FTD(Hrs)",
+                    showInLegend: true,
+                    dataPoints: [
+                        { label: "Vaccant Post", y: 266.21 },
+                        { label: "Shift Continuation", y: 302.25 },
+                        { label: "Manpower Shortage", y: 157.20 }
+
+                    ]
+                },
+                {
+                    type: "column",
+                    name: "MTD (Rs)",
+                    legendText: "MTD (Rs)",
+                    axisYType: "secondary",
+                    showInLegend: true,
+                    dataPoints: [
+                        { label: "Vaccant Post", y: 10.46 },
+                        { label: "Shift Continuation", y: 2.27 },
+                        { label: "Manpower Shortage", y: 3.99 }
+
+                    ]
+                }]
+            });
+            chart2.render();
+
+            function toggleDataSeries(e) {
+                if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+                    e.dataSeries.visible = false;
+                }
+                else {
+                    e.dataSeries.visible = true;
+                }
+                chart2.render();
+            }
+
+
+
+            var chart3 = new CanvasJS.Chart("chartContainer3", {
+                theme: "light1",
+                height: 200,
+                window: 90,
+                title: {
+                    text: "Authorization (Shift-wise)",
+                    fontColor: "#2f4f4f",
+                    fontFamily: "tahoma",
+                    fontWeight: "bold"
+                },
+
+                data: [{
+                    type: "column",
+                    yValueFormatString: "#,### ",
+                    indexLabel: "{y}",
+                    dataPoints: [
+                        { label: "Authorized Shifts", y: 206 },
+                        { label: "Pending To Authorize", y: 250 },
+                        { label: "Total No.of Shifts", y: 154 }
+
+                    ]
+                }]
+            });
+
+            function updateChart() {
+                var boilerColor, deltaY, yVal;
+                var dps = chart3.options.data[0].dataPoints;
+                for (var i = 0; i < dps.length; i++) {
+                    deltaY = Math.round(2 + Math.random() * (-2 - 2));
+                    yVal = deltaY + dps[i].y > 0 ? dps[i].y + deltaY : 0;
+                    boilerColor = yVal > 200 ? "#FF2500" : yVal >= 170 ? "#FF6000" : yVal < 170 ? "#6B8E23 " : null;
+                    // dps[i] = { y: yVal, color: boilerColor };
+
+                }
+                // chart3.options.data[0].dataPoints = dps;
+                chart3.render();
+            };
+            updateChart();
+
+            setInterval(function () { updateChart() }, 500);
+
+
+
+
+
+
+            var chart4 = new CanvasJS.Chart("chartContainer4", {
+                theme: "light1",
+                height: 200,
+                window: 90,
+                //exportFileName: "Doughnut Chart",
+                //exportEnabled: true,
+                animationEnabled: true,
+                title: {
+                    text: "Authorization By Officials",
+                    fontColor: "#2f4f4f",
+                    fontFamily: "tahoma",
+                    fontWeight: "bold"
+                },
+                legend: {
+                    cursor: "pointer",
+                    itemclick: explodePie
+                },
+                data: [{
+                    type: "doughnut",
+                    innerRadius: 90,
+                    showInLegend: true,
+                    toolTipContent: "<b>{name}</b>: #percent%",
+                    indexLabel: "#percent%",
+                    dataPoints: [
+                        { y: 450, name: "Shift Authorized by Supervisor" },
+                        { y: 120, name: "Shift Authorized by OO " },
+                        { y: 300, name: "Shift Authorized by OM " }
+
+                    ]
+                }]
+            });
+            chart4.render();
+
+            function explodePie(e) {
+                if (typeof (e.dataSeries.dataPoints[e.dataPointIndex].exploded) === "undefined" || !e.dataSeries.dataPoints[e.dataPointIndex].exploded) {
+                    e.dataSeries.dataPoints[e.dataPointIndex].exploded = true;
+                } else {
+                    e.dataSeries.dataPoints[e.dataPointIndex].exploded = false;
+                }
+                e.chart4.render();
+            }
+
+
+
+        }
+
+
+
+    </script>
+
+
+</head>
+
+
+
+
+
+<div class="row">
+    <div class="col-lg-3 col-sm-12">
+        <div class="hub-dropdown">
+            <select class="form-control">
+                <option value="0"> Hub</option>
+                <option value="1">Bangalore</option>
+            </select>
+        </div>
+    </div>
+    <div class=" col-lg-3 col-sm-12">
+        <div class="Branch-dropdown">
+            <select class="form-control">
+                <option value="0"> Branch</option>
+                <option value="1">bannerghatta</option>
+            </select>
+        </div>
+    </div>
+    <div class=" col-lg-3 col-sm-12">
+        <div class="Customer-dropdown">
+            <select class="form-control">
+                <option value="0"> Customer</option>
+                <option value="1">Google</option>
+            </select>
+        </div>
+    </div>
+    <div class=" col-lg-3 col-sm-12">
+        <div class="date-dropdown">
+            <input type="text" id="rangeDate" class="form-control" placeholder=" Date " data-input style="background-color:white;">
+            <i class="fa fa-calendar" aria-hidden="true" style="float:right;margin: -30px 15px 0 0;"></i>
+        </div>
+    </div>
+</div>
+<br />
+
+<!--Cards Data-->
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="card text-center col-lg-2 col-md-4 col-sm-6 col-xs-12" style="padding:0.4%;border-style:none;">
+            <div class="card-header  " style="background-color:#Ed3237;border-top-left-radius:10px;border-top-right-radius:10px;">Vacant Post</div>
+            <div class="card-body " style="padding-top:0.20rem;padding-bottom:0.25rem;background-color:#F6596B;flex:0;">
+                <table align="center">
+                    <tr>
+                        <td><button type="button" class="btn " style="background-color:#Ed3237;border-radius:50%"><span>112234</span></button></td>
+                        <td><button type="button" class="btn " style="background-color:#Ed3237;border-radius:50%"><span>112234</span></button></td>
+                    </tr>
+                    <tr>
+                        <td>Count</td>
+                        <td>Hours</td>
+
+                    </tr>
+                </table>
+            </div>
+            <div class="card-footer " style="background-color:#F6596B;border-bottom-left-radius:10px;border-bottom-right-radius:10px;padding:2px"><a href="#">More info</a></div>
+        </div>
+
+        <div class="card col-lg-2 col-md-4 col-sm-6 col-xs-12" style="padding:0.4%;border-style:none;">
+            <div class="card-header" style="background-color:#D97116;border-top-left-radius:10px;border-top-right-radius:10px; ">Shift Continuation</div>
+            <div class="card-body" style="padding:0.20rem;padding-bottom:0.25rem;background-color:#FF851B;flex:0;">
+                <table align="center">
+                    <tr>
+                        <td><button type="button" class="btn " style="background-color:#D97116;border-radius:50%;"><span>1230</span></button></td>
+                        <td><button type="button" class="btn " style="background-color:#D97116;border-radius:50%;"><span>11</span></button></td>
+                    </tr>
+                    <tr>
+                        <td>Count</td>
+                        <td>Hours</td>
+                    </tr>
+                </table>
+
+            </div>
+            <div class="card-footer " style="background-color:#FF851B;border-bottom-left-radius:10px;border-bottom-right-radius:10px;padding:2px;"><a href="#">More info</a></div>
+        </div>
+
+        <div class="card col-lg-2 col-md-4 col-sm-6 col-xs-12" style="padding:0.4%;border-style:none;">
+            <div class="card-header " style="background-color:#916A39;border-top-left-radius:10px;border-top-right-radius:10px;">Service Decrease</div>
+            <div class="card-body " style="padding:0.20rem;background-color:#AB7D44;flex:0;">
+                <table align="center">
+                    <tr>
+                        <td><button type="button" class="btn " style="background-color:#916A39;border-radius:50%;"><span>112234</span></button></td>
+                        <td><button type="button" class="btn " style="background-color:#916A39;border-radius:50%;"><span>12234</span></button></td>
+                    </tr>
+                    <tr>
+                        <td>Count</td>
+                        <td>Hours</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="card-footer " style="background-color:#AB7D44;border-bottom-left-radius:10px;border-bottom-right-radius:10px;padding:2px;"><a href="#">More info</a></div>
+        </div>
+
+
+        <div class="card text-center col-lg-2 col-md-4 col-sm-6 col-xs-12" style="padding:0.4%;border-style:none;">
+            <div class="card-header" style="background-color:#89A62D;border-top-left-radius:10px;border-top-right-radius:10px;">Additional Deployment </div>
+            <div class="card-body " style="padding:0.20rem;background-color:#A1C436;flex:0;">
+                <table align="center">
+                    <tr>
+                        <td><button type="button" class="btn " style="background-color:#89A62D;border-radius:50%;"><span>112345</span></button></td>
+                        <td><button type="button" class="btn " style="background-color:#89A62D;border-radius:50%;"><span>112345</span></button></td>
+                    </tr>
+                    <tr>
+                        <td>Count</td>
+                        <td>Hours</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="card-footer " style="background-color:#A1C436;border-bottom-left-radius:10px;border-bottom-right-radius:10px;padding:2px"><a href="#">More info</a></div>
+        </div>
+
+
+        <div class="card text-center col-lg-2 col-md-4 col-sm-6 col-xs-12" style="padding:0.4%;border-style:none;">
+
+            <div class="card-header" style="background-color:#55A1D6;border-top-left-radius:10px;border-top-right-radius:10px">Manpower Shortage</div>
+            <div class="card-body" style="padding:0.20rem; background-color:#5FB4EF;flex:0">
+
+                <table align="center">
+                    <tr>
+                        <td><button type="button" class="btn " style="background-color:#55A1D6;border-radius:50%;font-size:10px;"><span>12345</span></button></td>
+                        <td><button type="button" class="btn " style="background-color:#55A1D6;border-radius:50%"><span>1</span></button></td>
+                    </tr>
+                    <tr>
+                        <td>Count</td>
+                        <td>Hours</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="card-footer " style="background-color:#5FB4EF;border-bottom-left-radius:10px;border-bottom-right-radius:10px;padding:2px"><a href="#">More info</a></div>
+        </div>
+
+
+        <div class="card col-lg-2 col-md-4 col-sm-6 col-xs-12" style="padding:0.5%;border-style:none;">
+            <div class="card-header " style="background-color:#942BAE;border-top-left-radius:10px;border-top-right-radius:10px;">
+                Weekly Off | On Leave
+            </div>
+            <div class="card-body " style="padding:0.20rem;background-color:#B563C5;flex:0;">
+
+                <table align="center">
+                    <tr>
+                        <td><button type="button" class="btn " style="background-color:#942BAE;border-radius:50%;"><span>12234</span></button></td>
+                        <td><button type="button" class="btn " style="background-color:#942BAE;border-radius:50%;"><span>12234</span></button></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td> </td>
+                    </tr>
+                </table>
+
+            </div>
+            <div class="card-footer " style="background-color:#B563C5;border-bottom-left-radius:10px;border-bottom-right-radius:10px;padding:2px;"><a href="#">More info</a></div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="row pagination-centered text-center ">
+    <div class="col-lg-6 col-md-12 col-sm-12">
+        <div id="chartContainer2" style="height: 200px; max-width: 520px; margin:20px;"></div>
+    </div>
+    <div class="col-lg-6 col-md-12 col-sm-12">
+        <div id="chartContainer" style="height: 200px; max-width: 520px;margin:20px;"></div>
+    </div>
+    <div class="col-lg-6 col-md-12 col-sm-12">
+        <div id="chartContainer3" style="height: 200px; max-width: 520px; margin:20px;"></div>
+    </div>
+    <div class="col-lg-6 col-md-12 col-sm-12">
+        <div id="chartContainer4" style="height: 200px; max-width: 520px;margin:20px"></div>
+    </div>
+</div>
+
+
+
+
+
+
+
+

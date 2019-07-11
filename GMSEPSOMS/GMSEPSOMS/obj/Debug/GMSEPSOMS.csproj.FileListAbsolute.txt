@@ -1,0 +1,1120 @@
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll.config
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.pdb
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe.config
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.rsp
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe.config
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.rsp
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.AppContext.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Console.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Compression.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Claims.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.ValueTuple.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe.config
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.rsp
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\WebGrease.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.xml
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.xml
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.xml
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.xml
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.xml
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.xml
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.pdb
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csprojAssemblyReference.cache
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CoreCompileInputs.cache
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CopyComplete
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.pdb
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.dll
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.xml
+C:\Users\bnave\source\repos\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.xml
+C:\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll.config
+C:\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.pdb
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe.config
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.rsp
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe.config
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.rsp
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.AppContext.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Collections.Immutable.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Console.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Compression.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.AccessControl.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Claims.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Principal.Windows.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.ValueTuple.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe.config
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.rsp
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe
+C:\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe.config
+C:\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.Web.Infrastructure.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\WebGrease.dll
+C:\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.xml
+C:\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.xml
+C:\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.xml
+C:\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.xml
+C:\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.xml
+C:\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.xml
+C:\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.xml
+C:\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.xml
+C:\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.xml
+C:\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.xml
+C:\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.pdb
+C:\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csprojAssemblyReference.cache
+C:\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CoreCompileInputs.cache
+C:\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CopyComplete
+C:\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.dll
+C:\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.pdb
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll.config
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.pdb
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe.config
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.rsp
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe.config
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.rsp
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.AppContext.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Console.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Compression.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Claims.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.ValueTuple.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe.config
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.rsp
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\WebGrease.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.xml
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.xml
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.xml
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.xml
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.xml
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.xml
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.xml
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.pdb
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CopyComplete
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.pdb
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll.config
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.pdb
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe.config
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.rsp
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe.config
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.rsp
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.AppContext.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Console.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Compression.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Claims.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.ValueTuple.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe.config
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.rsp
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\WebGrease.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.pdb
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csprojAssemblyReference.cache
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CoreCompileInputs.cache
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CopyComplete
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019)\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.pdb
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll.config
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.pdb
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe.config
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.rsp
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe.config
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.rsp
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.AppContext.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Console.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Compression.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Claims.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.ValueTuple.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe.config
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.rsp
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\WebGrease.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.pdb
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csprojAssemblyReference.cache
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CoreCompileInputs.cache
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CopyComplete
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - Copy\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.pdb
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll.config
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.pdb
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe.config
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.rsp
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe.config
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.rsp
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.AppContext.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Console.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Compression.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Claims.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.ValueTuple.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe.config
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.rsp
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\WebGrease.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.pdb
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csprojAssemblyReference.cache
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CoreCompileInputs.cache
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CopyComplete
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.dll
+C:\Users\bnave\Desktop\New folder\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.pdb
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll.config
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.pdb
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe.config
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.rsp
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe.config
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.rsp
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Managed.Core.targets
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.AppContext.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Collections.Immutable.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Console.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Compression.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Reflection.Metadata.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.AccessControl.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Claims.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Principal.Windows.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.ValueTuple.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XmlDocument.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe.config
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.rsp
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe.config
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.Web.Infrastructure.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\WebGrease.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.xml
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.xml
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.xml
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.xml
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.xml
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.xml
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.xml
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.xml
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.xml
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.xml
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.pdb
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csprojAssemblyReference.cache
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CoreCompileInputs.cache
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CopyComplete
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.dll
+D:\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.pdb
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll.config
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.pdb
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe.config
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.rsp
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe.config
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.rsp
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Managed.Core.targets
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.AppContext.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Collections.Immutable.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Console.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Compression.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Reflection.Metadata.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.AccessControl.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Claims.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Principal.Windows.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.ValueTuple.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XmlDocument.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe.config
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.rsp
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe.config
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.Web.Infrastructure.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\WebGrease.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.xml
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.xml
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.xml
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.xml
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.xml
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.xml
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.xml
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.xml
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.xml
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.xml
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.pdb
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csprojAssemblyReference.cache
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CoreCompileInputs.cache
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CopyComplete
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.dll
+D:\GMSEPSOMS (18062019)\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.pdb
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll.config
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.pdb
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe.config
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.rsp
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe.config
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.rsp
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.AppContext.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Console.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Compression.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Claims.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.ValueTuple.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe.config
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.rsp
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\WebGrease.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.xml
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.xml
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.xml
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.xml
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.xml
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.xml
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.xml
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.xml
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.pdb
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csprojAssemblyReference.cache
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CoreCompileInputs.cache
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CopyComplete
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.dll
+C:\Users\bnave\Desktop\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.pdb
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll.config
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.pdb
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe.config
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.rsp
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe.config
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.rsp
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Managed.Core.targets
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.AppContext.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Collections.Immutable.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Console.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Compression.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Reflection.Metadata.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.AccessControl.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Claims.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Principal.Windows.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.ValueTuple.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XmlDocument.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe.config
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.rsp
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe.config
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.Web.Infrastructure.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\WebGrease.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.xml
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.xml
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.xml
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.xml
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.xml
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.xml
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.xml
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.xml
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.xml
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.xml
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.pdb
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csprojAssemblyReference.cache
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CoreCompileInputs.cache
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CopyComplete
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.dll
+D:\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.pdb
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll.config
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.pdb
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe.config
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.rsp
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe.config
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.rsp
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.AppContext.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Console.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Compression.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Claims.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.ValueTuple.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe.config
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.rsp
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\WebGrease.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.xml
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.xml
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.xml
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.xml
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.xml
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.xml
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.xml
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.pdb
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CopyComplete
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.dll
+C:\Users\HP\Desktop\New folder\GMSEPSOMS Fianal\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.pdb
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll.config
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.pdb
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe.config
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.rsp
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe.config
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.rsp
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Managed.Core.targets
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.AppContext.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Collections.Immutable.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Console.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Compression.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Reflection.Metadata.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.AccessControl.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Claims.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Principal.Windows.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.ValueTuple.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XmlDocument.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe.config
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.rsp
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe.config
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.Web.Infrastructure.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\WebGrease.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.xml
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.xml
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.xml
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.xml
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.xml
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.xml
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.xml
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.xml
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.xml
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.xml
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.pdb
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csprojAssemblyReference.cache
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CoreCompileInputs.cache
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CopyComplete
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.dll
+E:\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.pdb
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll.config
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.pdb
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe.config
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.rsp
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe.config
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.rsp
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.AppContext.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Console.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Compression.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Claims.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.ValueTuple.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe.config
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.rsp
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\WebGrease.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.xml
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.xml
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.xml
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.xml
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.xml
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.xml
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.xml
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.pdb
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CopyComplete
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.dll
+C:\Users\HP\Desktop\New folder\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.pdb
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll.config
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\GMSEPSOMS.pdb
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.exe.config
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csc.rsp
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.exe.config
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\csi.rsp
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.Managed.Core.targets
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.AppContext.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Collections.Immutable.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Console.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Compression.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.IO.Pipes.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Reflection.Metadata.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.AccessControl.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Claims.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Security.Principal.Windows.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.ValueTuple.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XmlDocument.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.exe.config
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\vbc.rsp
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\roslyn\VBCSCompiler.exe.config
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.Web.Infrastructure.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\WebGrease.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.xml
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\EntityFramework.SqlServer.xml
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Helpers.xml
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Mvc.xml
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Optimization.xml
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.Razor.xml
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.xml
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Deployment.xml
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\System.Web.WebPages.Razor.xml
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Newtonsoft.Json.xml
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Antlr3.Runtime.pdb
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csprojAssemblyReference.cache
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CoreCompileInputs.cache
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.csproj.CopyComplete
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.dll
+E:\dashboard-updated\g4s\GMSEPSOMS (14062019) - UI\GMSEPSOMS\GMSEPSOMS\obj\Debug\GMSEPSOMS.pdb

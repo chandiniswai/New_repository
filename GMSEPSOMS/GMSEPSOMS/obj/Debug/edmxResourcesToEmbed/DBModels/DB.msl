@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="G4SOMSFModelStoreContainer" CdmEntityContainer="G4SOMSFEntities">
+    <FunctionImportMapping FunctionImportName="AppErrorLog_set" FunctionName="G4SOMSFModel.Store.AppErrorLog_set" />
+    <FunctionImportMapping FunctionImportName="AuthorizeforOTP_get" FunctionName="G4SOMSFModel.Store.AuthorizeforOTP_get">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.AuthorizeforOTP_get_Result">
+          <ScalarProperty Name="Response" ColumnName="Response" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="CheckUser_get" FunctionName="G4SOMSFModel.Store.CheckUser_get">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.CheckUser_get_Result">
+          <ScalarProperty Name="Response" ColumnName="Response" />
+          <ScalarProperty Name="OTP" ColumnName="OTP" />
+          <ScalarProperty Name="MobileNo" ColumnName="MobileNo" />
+          <ScalarProperty Name="ProfileId" ColumnName="ProfileId" />
+          <ScalarProperty Name="SC" ColumnName="SC" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DailyOperations_get" FunctionName="G4SOMSFModel.Store.DailyOperations_get">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.DailyOperations_get_Result">
+          <ScalarProperty Name="CC" ColumnName="CC" />
+          <ScalarProperty Name="CN" ColumnName="CN" />
+          <ScalarProperty Name="HC" ColumnName="HC" />
+          <ScalarProperty Name="HNA" ColumnName="HNA" />
+          <ScalarProperty Name="BC" ColumnName="BC" />
+          <ScalarProperty Name="BDES" ColumnName="BDES" />
+          <ScalarProperty Name="SN" ColumnName="SN" />
+          <ScalarProperty Name="SOLN" ColumnName="SOLN" />
+          <ScalarProperty Name="ASID" ColumnName="ASID" />
+          <ScalarProperty Name="ASAD" ColumnName="ASAD" />
+          <ScalarProperty Name="CD" ColumnName="CD" />
+          <ScalarProperty Name="SC" ColumnName="SC" />
+          <ScalarProperty Name="NFPO" ColumnName="NFPO" />
+          <ScalarProperty Name="NFPER" ColumnName="NFPER" />
+          <ScalarProperty Name="CHRS" ColumnName="CHRS" />
+          <ScalarProperty Name="NFSCH" ColumnName="NFSCH" />
+          <ScalarProperty Name="SHRS" ColumnName="SHRS" />
+          <ScalarProperty Name="NFAD" ColumnName="NFAD" />
+          <ScalarProperty Name="NFREP" ColumnName="NFREP" />
+          <ScalarProperty Name="NFSD" ColumnName="NFSD" />
+          <ScalarProperty Name="NFVAC" ColumnName="NFVAC" />
+          <ScalarProperty Name="C_NFWO" ColumnName=" NFWO" />
+          <ScalarProperty Name="NOSC" ColumnName="NOSC" />
+          <ScalarProperty Name="NFRAT" ColumnName="NFRAT" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DailyOperations_get_Datewise" FunctionName="G4SOMSFModel.Store.DailyOperations_get_Datewise">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.DailyOperations_get_Datewise_Result">
+          <ScalarProperty Name="CC" ColumnName="CC" />
+          <ScalarProperty Name="CN" ColumnName="CN" />
+          <ScalarProperty Name="HC" ColumnName="HC" />
+          <ScalarProperty Name="HNA" ColumnName="HNA" />
+          <ScalarProperty Name="BC" ColumnName="BC" />
+          <ScalarProperty Name="BDES" ColumnName="BDES" />
+          <ScalarProperty Name="SN" ColumnName="SN" />
+          <ScalarProperty Name="SOLN" ColumnName="SOLN" />
+          <ScalarProperty Name="ASID" ColumnName="ASID" />
+          <ScalarProperty Name="ASAD" ColumnName="ASAD" />
+          <ScalarProperty Name="CD" ColumnName="CD" />
+          <ScalarProperty Name="SC" ColumnName="SC" />
+          <ScalarProperty Name="NFPO" ColumnName="NFPO" />
+          <ScalarProperty Name="NFPER" ColumnName="NFPER" />
+          <ScalarProperty Name="CHRS" ColumnName="CHRS" />
+          <ScalarProperty Name="NFSCH" ColumnName="NFSCH" />
+          <ScalarProperty Name="SHRS" ColumnName="SHRS" />
+          <ScalarProperty Name="NFAD" ColumnName="NFAD" />
+          <ScalarProperty Name="NFREP" ColumnName="NFREP" />
+          <ScalarProperty Name="NFSD" ColumnName="NFSD" />
+          <ScalarProperty Name="NFVAC" ColumnName="NFVAC" />
+          <ScalarProperty Name="C_NFWO" ColumnName=" NFWO" />
+          <ScalarProperty Name="NOSC" ColumnName="NOSC" />
+          <ScalarProperty Name="NFRAT" ColumnName="NFRAT" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DailyOperations_get_Datewise_V2" FunctionName="G4SOMSFModel.Store.DailyOperations_get_Datewise_V2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.DailyOperations_get_Datewise_V2_Result">
+          <ScalarProperty Name="CC" ColumnName="CC" />
+          <ScalarProperty Name="CN" ColumnName="CN" />
+          <ScalarProperty Name="HC" ColumnName="HC" />
+          <ScalarProperty Name="HNA" ColumnName="HNA" />
+          <ScalarProperty Name="BC" ColumnName="BC" />
+          <ScalarProperty Name="BDES" ColumnName="BDES" />
+          <ScalarProperty Name="SN" ColumnName="SN" />
+          <ScalarProperty Name="SOLN" ColumnName="SOLN" />
+          <ScalarProperty Name="ASID" ColumnName="ASID" />
+          <ScalarProperty Name="ASAD" ColumnName="ASAD" />
+          <ScalarProperty Name="CD" ColumnName="CD" />
+          <ScalarProperty Name="SC" ColumnName="SC" />
+          <ScalarProperty Name="NFPO" ColumnName="NFPO" />
+          <ScalarProperty Name="NFPER" ColumnName="NFPER" />
+          <ScalarProperty Name="CHRS" ColumnName="CHRS" />
+          <ScalarProperty Name="NFSCH" ColumnName="NFSCH" />
+          <ScalarProperty Name="SHRS" ColumnName="SHRS" />
+          <ScalarProperty Name="NFAD" ColumnName="NFAD" />
+          <ScalarProperty Name="ADHRS" ColumnName="ADHRS" />
+          <ScalarProperty Name="NFREP" ColumnName="NFREP" />
+          <ScalarProperty Name="NFSD" ColumnName="NFSD" />
+          <ScalarProperty Name="SDHRS" ColumnName="SDHRS" />
+          <ScalarProperty Name="NFVAC" ColumnName="NFVAC" />
+          <ScalarProperty Name="VCHRS" ColumnName="VCHRS" />
+          <ScalarProperty Name="NFWO" ColumnName="NFWO" />
+          <ScalarProperty Name="NOSC" ColumnName="NOSC" />
+          <ScalarProperty Name="NFRAT" ColumnName="NFRAT" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DailyOperations_set" FunctionName="G4SOMSFModel.Store.DailyOperations_set" />
+    <FunctionImportMapping FunctionImportName="DailyOperations_set_EXTRA" FunctionName="G4SOMSFModel.Store.DailyOperations_set_EXTRA" />
+    <FunctionImportMapping FunctionImportName="dd_Branchdetails_get" FunctionName="G4SOMSFModel.Store.dd_Branchdetails_get">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.dd_Branchdetails_get_Result">
+          <ScalarProperty Name="BranchCode" ColumnName="BranchCode" />
+          <ScalarProperty Name="BranchName" ColumnName="BranchName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="dd_CustAssignmentDetails_get" FunctionName="G4SOMSFModel.Store.dd_CustAssignmentDetails_get">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.dd_CustAssignmentDetails_get_Result">
+          <ScalarProperty Name="AssignmentAutoId" ColumnName="AssignmentAutoId" />
+          <ScalarProperty Name="AssignmentName" ColumnName="AssignmentName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="dd_CustAssignmentDetails_mul_get" FunctionName="G4SOMSFModel.Store.dd_CustAssignmentDetails_mul_get">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.dd_CustAssignmentDetails_mul_get_Result">
+          <ScalarProperty Name="AssignmentId" ColumnName="AssignmentId" />
+          <ScalarProperty Name="AssignmentAddress" ColumnName="AssignmentAddress" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="dd_CustDetails_mul_get" FunctionName="G4SOMSFModel.Store.dd_CustDetails_mul_get">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.dd_CustDetails_mul_get_Result">
+          <ScalarProperty Name="CustCode" ColumnName="CustCode" />
+          <ScalarProperty Name="CustName" ColumnName="CustName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="dd_Hubdetails_get" FunctionName="G4SOMSFModel.Store.dd_Hubdetails_get">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.dd_Hubdetails_get_Result">
+          <ScalarProperty Name="HubAutoId" ColumnName="HubAutoId" />
+          <ScalarProperty Name="HubName" ColumnName="HubName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="dd_InsertUpdateEmpAssignmentMapping_get" FunctionName="G4SOMSFModel.Store.dd_InsertUpdateEmpAssignmentMapping_get" />
+    <FunctionImportMapping FunctionImportName="dd_Profiledetails_get" FunctionName="G4SOMSFModel.Store.dd_Profiledetails_get">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.dd_Profiledetails_get_Result">
+          <ScalarProperty Name="ProfileId" ColumnName="ProfileId" />
+          <ScalarProperty Name="ProfileName" ColumnName="ProfileName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="EmpAssignment_Delete_set" FunctionName="G4SOMSFModel.Store.EmpAssignment_Delete_set" />
+    <FunctionImportMapping FunctionImportName="EmpAssignmentALL_get" FunctionName="G4SOMSFModel.Store.EmpAssignmentALL_get">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.EmpAssignmentALL_get_Result">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="MobileNo" ColumnName="MobileNo" />
+          <ScalarProperty Name="DeviceSerial" ColumnName="DeviceSerial" />
+          <ScalarProperty Name="HUBCODE" ColumnName="HUBCODE" />
+          <ScalarProperty Name="BranchCode" ColumnName="BranchCode" />
+          <ScalarProperty Name="CustCode" ColumnName="CustCode" />
+          <ScalarProperty Name="CustName" ColumnName="CustName" />
+          <ScalarProperty Name="AssignmentId" ColumnName="AssignmentId" />
+          <ScalarProperty Name="ProfileId" ColumnName="ProfileId" />
+          <ScalarProperty Name="ProfileCode" ColumnName="ProfileCode" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="EmpAssignmentMappinguser_get" FunctionName="G4SOMSFModel.Store.EmpAssignmentMappinguser_get">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.EmpAssignmentMappinguser_get_Result">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="MobileNo" ColumnName="MobileNo" />
+          <ScalarProperty Name="ProfileId" ColumnName="ProfileId" />
+          <ScalarProperty Name="ProfileName" ColumnName="ProfileName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Employee_Confirm" FunctionName="G4SOMSFModel.Store.Employee_Confirm" />
+    <FunctionImportMapping FunctionImportName="FetchDetailsforEPSTracker_get" FunctionName="G4SOMSFModel.Store.FetchDetailsforEPSTracker_get">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.FetchDetailsforEPSTracker_get_Result">
+          <ScalarProperty Name="BranchName" ColumnName="BranchName" />
+          <ScalarProperty Name="HeadCount" ColumnName="HeadCount" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="FetchEmpLeavedetails_Branch_wise_OO_OM_get" FunctionName="G4SOMSFModel.Store.FetchEmpLeavedetails_Branch_wise_OO_OM_get">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.FetchEmpLeavedetails_Branch_wise_OO_OM_get_Result">
+          <ScalarProperty Name="BC" ColumnName="BC" />
+          <ScalarProperty Name="EC" ColumnName="EC" />
+          <ScalarProperty Name="EN" ColumnName="EN" />
+          <ScalarProperty Name="SD" ColumnName="SD" />
+          <ScalarProperty Name="ED" ColumnName="ED" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="FetchEmpLeavedetails_Branch_wise_SUP_get" FunctionName="G4SOMSFModel.Store.FetchEmpLeavedetails_Branch_wise_SUP_get">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.FetchEmpLeavedetails_Branch_wise_SUP_get_Result">
+          <ScalarProperty Name="BC" ColumnName="BC" />
+          <ScalarProperty Name="EC" ColumnName="EC" />
+          <ScalarProperty Name="EN" ColumnName="EN" />
+          <ScalarProperty Name="SD" ColumnName="SD" />
+          <ScalarProperty Name="ED" ColumnName="ED" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="FetchEmployeeBranchWise_OO_OM_get" FunctionName="G4SOMSFModel.Store.FetchEmployeeBranchWise_OO_OM_get">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.FetchEmployeeBranchWise_OO_OM_get_Result">
+          <ScalarProperty Name="EC" ColumnName="EC" />
+          <ScalarProperty Name="EN" ColumnName="EN" />
+          <ScalarProperty Name="EM" ColumnName="EM" />
+          <ScalarProperty Name="DN" ColumnName="DN" />
+          <ScalarProperty Name="BC" ColumnName="BC" />
+          <ScalarProperty Name="DH" ColumnName="DH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="FetchEmployeeBranchWise_OO_OM_get_BK28052019" FunctionName="G4SOMSFModel.Store.FetchEmployeeBranchWise_OO_OM_get_BK28052019">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.FetchEmployeeBranchWise_OO_OM_get_BK28052019_Result">
+          <ScalarProperty Name="EC" ColumnName="EC" />
+          <ScalarProperty Name="EN" ColumnName="EN" />
+          <ScalarProperty Name="EM" ColumnName="EM" />
+          <ScalarProperty Name="DN" ColumnName="DN" />
+          <ScalarProperty Name="BC" ColumnName="BC" />
+          <ScalarProperty Name="DH" ColumnName="DH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="FetchEmployeeBranchWise_OO_OM_get_TEST" FunctionName="G4SOMSFModel.Store.FetchEmployeeBranchWise_OO_OM_get_TEST">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.FetchEmployeeBranchWise_OO_OM_get_TEST_Result">
+          <ScalarProperty Name="EC" ColumnName="EC" />
+          <ScalarProperty Name="EN" ColumnName="EN" />
+          <ScalarProperty Name="EM" ColumnName="EM" />
+          <ScalarProperty Name="DN" ColumnName="DN" />
+          <ScalarProperty Name="BC" ColumnName="BC" />
+          <ScalarProperty Name="DH" ColumnName="DH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="FetchEmployeeBranchWise_SUP_get" FunctionName="G4SOMSFModel.Store.FetchEmployeeBranchWise_SUP_get">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.FetchEmployeeBranchWise_SUP_get_Result">
+          <ScalarProperty Name="EC" ColumnName="EC" />
+          <ScalarProperty Name="EN" ColumnName="EN" />
+          <ScalarProperty Name="EM" ColumnName="EM" />
+          <ScalarProperty Name="DN" ColumnName="DN" />
+          <ScalarProperty Name="BC" ColumnName="BC" />
+          <ScalarProperty Name="DH" ColumnName="DH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="FetchEmployeeBranchWise_SUP_get_TEST" FunctionName="G4SOMSFModel.Store.FetchEmployeeBranchWise_SUP_get_TEST">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.FetchEmployeeBranchWise_SUP_get_TEST_Result">
+          <ScalarProperty Name="EC" ColumnName="EC" />
+          <ScalarProperty Name="EN" ColumnName="EN" />
+          <ScalarProperty Name="EM" ColumnName="EM" />
+          <ScalarProperty Name="DN" ColumnName="DN" />
+          <ScalarProperty Name="BC" ColumnName="BC" />
+          <ScalarProperty Name="DH" ColumnName="DH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="FetchReportingDetailsBranchwise" FunctionName="G4SOMSFModel.Store.FetchReportingDetailsBranchwise" />
+    <FunctionImportMapping FunctionImportName="FetchReportingDetailsBranchwise_Dashboard" FunctionName="G4SOMSFModel.Store.FetchReportingDetailsBranchwise_Dashboard" />
+    <FunctionImportMapping FunctionImportName="FetchReportingDetailsHUBwise" FunctionName="G4SOMSFModel.Store.FetchReportingDetailsHUBwise" />
+    <FunctionImportMapping FunctionImportName="FetchSchedule_Assign_wise_OO_OM_get" FunctionName="G4SOMSFModel.Store.FetchSchedule_Assign_wise_OO_OM_get">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.FetchSchedule_Assign_wise_OO_OM_get_Result">
+          <ScalarProperty Name="AI" ColumnName="AI" />
+          <ScalarProperty Name="EC" ColumnName="EC" />
+          <ScalarProperty Name="EN" ColumnName="EN" />
+          <ScalarProperty Name="DN" ColumnName="DN" />
+          <ScalarProperty Name="PAID" ColumnName="PAID" />
+          <ScalarProperty Name="Po" ColumnName="Po" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Stime" ColumnName="Stime" />
+          <ScalarProperty Name="Etime" ColumnName="Etime" />
+          <ScalarProperty Name="SC" ColumnName="SC" />
+          <ScalarProperty Name="BC" ColumnName="BC" />
+          <ScalarProperty Name="BN" ColumnName="BN" />
+          <ScalarProperty Name="CC" ColumnName="CC" />
+          <ScalarProperty Name="CN" ColumnName="CN" />
+          <ScalarProperty Name="ASID" ColumnName="ASID" />
+          <ScalarProperty Name="ASA" ColumnName="ASA" />
+          <ScalarProperty Name="DS" ColumnName="DS" />
+          <ScalarProperty Name="DP" ColumnName="DP" />
+          <ScalarProperty Name="SN" ColumnName="SN" />
+          <ScalarProperty Name="SLN" ColumnName="SLN" />
+          <ScalarProperty Name="SR" ColumnName="SR" />
+          <ScalarProperty Name="ST" ColumnName="ST" />
+          <ScalarProperty Name="DPEC" ColumnName="DPEC" />
+          <ScalarProperty Name="DPEN" ColumnName="DPEN" />
+          <ScalarProperty Name="DPED" ColumnName="DPED" />
+          <ScalarProperty Name="DPDT" ColumnName="DPDT" />
+          <ScalarProperty Name="DPST" ColumnName="DPST" />
+          <ScalarProperty Name="DPET" ColumnName="DPET" />
+          <ScalarProperty Name="DM" ColumnName="DM" />
+          <ScalarProperty Name="AB" ColumnName="AB" />
+          <ScalarProperty Name="AT" ColumnName="AT" />
+          <ScalarProperty Name="KV" ColumnName="KV" />
+          <ScalarProperty Name="CL" ColumnName="CL" />
+          <ScalarProperty Name="US" ColumnName="US" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="FetchSchedule_Assign_wise_SUP_get" FunctionName="G4SOMSFModel.Store.FetchSchedule_Assign_wise_SUP_get">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.FetchSchedule_Assign_wise_SUP_get_Result">
+          <ScalarProperty Name="AI" ColumnName="AI" />
+          <ScalarProperty Name="EC" ColumnName="EC" />
+          <ScalarProperty Name="EN" ColumnName="EN" />
+          <ScalarProperty Name="DN" ColumnName="DN" />
+          <ScalarProperty Name="PAID" ColumnName="PAID" />
+          <ScalarProperty Name="Po" ColumnName="Po" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Stime" ColumnName="Stime" />
+          <ScalarProperty Name="Etime" ColumnName="Etime" />
+          <ScalarProperty Name="SC" ColumnName="SC" />
+          <ScalarProperty Name="BC" ColumnName="BC" />
+          <ScalarProperty Name="BN" ColumnName="BN" />
+          <ScalarProperty Name="CC" ColumnName="CC" />
+          <ScalarProperty Name="CN" ColumnName="CN" />
+          <ScalarProperty Name="ASID" ColumnName="ASID" />
+          <ScalarProperty Name="ASA" ColumnName="ASA" />
+          <ScalarProperty Name="DS" ColumnName="DS" />
+          <ScalarProperty Name="DP" ColumnName="DP" />
+          <ScalarProperty Name="SN" ColumnName="SN" />
+          <ScalarProperty Name="SLN" ColumnName="SLN" />
+          <ScalarProperty Name="SR" ColumnName="SR" />
+          <ScalarProperty Name="ST" ColumnName="ST" />
+          <ScalarProperty Name="DPEC" ColumnName="DPEC" />
+          <ScalarProperty Name="DPEN" ColumnName="DPEN" />
+          <ScalarProperty Name="DPED" ColumnName="DPED" />
+          <ScalarProperty Name="DPDT" ColumnName="DPDT" />
+          <ScalarProperty Name="DPST" ColumnName="DPST" />
+          <ScalarProperty Name="DPET" ColumnName="DPET" />
+          <ScalarProperty Name="DM" ColumnName="DM" />
+          <ScalarProperty Name="AB" ColumnName="AB" />
+          <ScalarProperty Name="AT" ColumnName="AT" />
+          <ScalarProperty Name="KV" ColumnName="KV" />
+          <ScalarProperty Name="CL" ColumnName="CL" />
+          <ScalarProperty Name="US" ColumnName="US" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="FetchScheduleInfo_get" FunctionName="G4SOMSFModel.Store.FetchScheduleInfo_get" />
+    <FunctionImportMapping FunctionImportName="FetchScheduleInfo_get_V1" FunctionName="G4SOMSFModel.Store.FetchScheduleInfo_get_V1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.FetchScheduleInfo_get_V1_Result">
+          <ScalarProperty Name="Response" ColumnName="Response" />
+          <ScalarProperty Name="BC" ColumnName="BC" />
+          <ScalarProperty Name="BN" ColumnName="BN" />
+          <ScalarProperty Name="CC" ColumnName="CC" />
+          <ScalarProperty Name="CN" ColumnName="CN" />
+          <ScalarProperty Name="ASID" ColumnName="ASID" />
+          <ScalarProperty Name="SC" ColumnName="SC" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="FetchSoPostdetails_Assign_wise_OO_OM_get" FunctionName="G4SOMSFModel.Store.FetchSoPostdetails_Assign_wise_OO_OM_get">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.FetchSoPostdetails_Assign_wise_OO_OM_get_Result">
+          <ScalarProperty Name="BC" ColumnName="BC" />
+          <ScalarProperty Name="CC" ColumnName="CC" />
+          <ScalarProperty Name="ASID" ColumnName="ASID" />
+          <ScalarProperty Name="SN" ColumnName="SN" />
+          <ScalarProperty Name="SLNO" ColumnName="SLNO" />
+          <ScalarProperty Name="SR" ColumnName="SR" />
+          <ScalarProperty Name="PID" ColumnName="PID" />
+          <ScalarProperty Name="PO" ColumnName="PO" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="FetchSoPostdetails_Assign_wise_OO_OM_get_TEST" FunctionName="G4SOMSFModel.Store.FetchSoPostdetails_Assign_wise_OO_OM_get_TEST">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.FetchSoPostdetails_Assign_wise_OO_OM_get_TEST_Result">
+          <ScalarProperty Name="BC" ColumnName="BC" />
+          <ScalarProperty Name="BN" ColumnName="BN" />
+          <ScalarProperty Name="CC" ColumnName="CC" />
+          <ScalarProperty Name="CN" ColumnName="CN" />
+          <ScalarProperty Name="ASID" ColumnName="ASID" />
+          <ScalarProperty Name="ASA" ColumnName="ASA" />
+          <ScalarProperty Name="SN" ColumnName="SN" />
+          <ScalarProperty Name="SLNO" ColumnName="SLNO" />
+          <ScalarProperty Name="SR" ColumnName="SR" />
+          <ScalarProperty Name="PID" ColumnName="PID" />
+          <ScalarProperty Name="PO" ColumnName="PO" />
+          <ScalarProperty Name="SC" ColumnName="SC" />
+          <ScalarProperty Name="ST" ColumnName="ST" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="FetchSoPostdetails_Assign_wise_OO_OM_get_VER1" FunctionName="G4SOMSFModel.Store.FetchSoPostdetails_Assign_wise_OO_OM_get_VER1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.FetchSoPostdetails_Assign_wise_OO_OM_get_VER1_Result">
+          <ScalarProperty Name="BC" ColumnName="BC" />
+          <ScalarProperty Name="BN" ColumnName="BN" />
+          <ScalarProperty Name="CC" ColumnName="CC" />
+          <ScalarProperty Name="CN" ColumnName="CN" />
+          <ScalarProperty Name="ASID" ColumnName="ASID" />
+          <ScalarProperty Name="ASA" ColumnName="ASA" />
+          <ScalarProperty Name="SN" ColumnName="SN" />
+          <ScalarProperty Name="SLNO" ColumnName="SLNO" />
+          <ScalarProperty Name="SR" ColumnName="SR" />
+          <ScalarProperty Name="PID" ColumnName="PID" />
+          <ScalarProperty Name="PO" ColumnName="PO" />
+          <ScalarProperty Name="SC" ColumnName="SC" />
+          <ScalarProperty Name="ST" ColumnName="ST" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="FetchSoPostdetails_Assign_wise_SUP_get" FunctionName="G4SOMSFModel.Store.FetchSoPostdetails_Assign_wise_SUP_get">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.FetchSoPostdetails_Assign_wise_SUP_get_Result">
+          <ScalarProperty Name="BC" ColumnName="BC" />
+          <ScalarProperty Name="CC" ColumnName="CC" />
+          <ScalarProperty Name="ASID" ColumnName="ASID" />
+          <ScalarProperty Name="SN" ColumnName="SN" />
+          <ScalarProperty Name="SLNO" ColumnName="SLNO" />
+          <ScalarProperty Name="SR" ColumnName="SR" />
+          <ScalarProperty Name="PID" ColumnName="PID" />
+          <ScalarProperty Name="PO" ColumnName="PO" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="FetchSoPostdetails_Assign_wise_SUP_get_VER1" FunctionName="G4SOMSFModel.Store.FetchSoPostdetails_Assign_wise_SUP_get_VER1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.FetchSoPostdetails_Assign_wise_SUP_get_VER1_Result">
+          <ScalarProperty Name="BC" ColumnName="BC" />
+          <ScalarProperty Name="BN" ColumnName="BN" />
+          <ScalarProperty Name="CC" ColumnName="CC" />
+          <ScalarProperty Name="CN" ColumnName="CN" />
+          <ScalarProperty Name="ASID" ColumnName="ASID" />
+          <ScalarProperty Name="ASA" ColumnName="ASA" />
+          <ScalarProperty Name="SN" ColumnName="SN" />
+          <ScalarProperty Name="SLNO" ColumnName="SLNO" />
+          <ScalarProperty Name="SR" ColumnName="SR" />
+          <ScalarProperty Name="PID" ColumnName="PID" />
+          <ScalarProperty Name="PO" ColumnName="PO" />
+          <ScalarProperty Name="SC" ColumnName="SC" />
+          <ScalarProperty Name="ST" ColumnName="ST" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="logindetails_get" FunctionName="G4SOMSFModel.Store.logindetails_get">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.logindetails_get_Result">
+          <ScalarProperty Name="Response" ColumnName="Response" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Pwd" ColumnName="Pwd" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ProfileId" ColumnName="ProfileId" />
+          <ScalarProperty Name="ProfileCode" ColumnName="ProfileCode" />
+          <ScalarProperty Name="ProfileName" ColumnName="ProfileName" />
+          <ScalarProperty Name="GMS" ColumnName="GMS" />
+          <ScalarProperty Name="EPS" ColumnName="EPS" />
+          <ScalarProperty Name="OMSOFF" ColumnName="OMSOFF" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Menudetails_get" FunctionName="G4SOMSFModel.Store.Menudetails_get">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.Menudetails_get_Result">
+          <ScalarProperty Name="optionId" ColumnName="optionId" />
+          <ScalarProperty Name="optionName" ColumnName="optionName" />
+          <ScalarProperty Name="parentOptionId" ColumnName="parentOptionId" />
+          <ScalarProperty Name="linkName" ColumnName="linkName" />
+          <ScalarProperty Name="sequence" ColumnName="sequence" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ReloadInfo_set" FunctionName="G4SOMSFModel.Store.ReloadInfo_set">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.ReloadInfo_set_Result">
+          <ScalarProperty Name="Response" ColumnName="Response" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="G4SOMSFModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="G4SOMSFModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="G4SOMSFModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="G4SOMSFModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="G4SOMSFModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="G4SOMSFModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="G4SOMSFModel.Store.sp_upgraddiagrams" />
+    <FunctionImportMapping FunctionImportName="sp_UserPwdManager_get" FunctionName="G4SOMSFModel.Store.sp_UserPwdManager_get">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.sp_UserPwdManager_get_Result">
+          <ScalarProperty Name="Response" ColumnName="Response" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UpdateDataToMainTables_set" FunctionName="G4SOMSFModel.Store.UpdateDataToMainTables_set" />
+    <FunctionImportMapping FunctionImportName="UpdateScheduleOut_set" FunctionName="G4SOMSFModel.Store.UpdateScheduleOut_set" />
+    <FunctionImportMapping FunctionImportName="UpdateScheduleOut_setBK25052019" FunctionName="G4SOMSFModel.Store.UpdateScheduleOut_setBK25052019" />
+    <FunctionImportMapping FunctionImportName="UserConfirmed_set" FunctionName="G4SOMSFModel.Store.UserConfirmed_set">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="G4SOMSFModel.UserConfirmed_set_Result">
+          <ScalarProperty Name="Response" ColumnName="Response" />
+          <ScalarProperty Name="DeviceSerialNo" ColumnName="DeviceSerialNo" />
+          <ScalarProperty Name="DevicePwd" ColumnName="DevicePwd" />
+          <ScalarProperty Name="ProfileId" ColumnName="ProfileId" />
+          <ScalarProperty Name="ProfileName" ColumnName="ProfileName" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SyncProcedure" FunctionName="G4SOMSFModel.Store.SyncProcedure" />
+  </EntityContainerMapping>
+</Mapping>

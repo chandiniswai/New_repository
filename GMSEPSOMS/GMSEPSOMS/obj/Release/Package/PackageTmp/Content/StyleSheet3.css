@@ -1,0 +1,320 @@
+﻿/*Offsite CSS*/
+/*---------------------------*/
+.icon {
+    font-size: 18px;
+    position: absolute;
+    right: 23px;
+    top: 6px;
+    height: 14px;
+    width: 17px;
+}
+
+.submit-btn {
+    color: #fff;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    padding: 2% 12%;
+    width: auto;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.submit-btn1 {
+    color: #fff;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    padding: 4% 20%;
+    width: auto;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.card1 {
+    min-height: 400px;
+    width: 13%;
+    margin-left: 1%;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 3% 5%;
+}
+
+.card-text {
+    color: white;
+    font-size: 13px !important;
+}
+
+.card2 {
+    border-radius: 5px;
+    border-radius: 3px;
+    padding: 2% 1%;
+    background: red;
+}
+
+.btn-new {
+    padding: 1% 2%;
+    border-radius: 13px;
+    margin-left: -1%;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;
+}
+
+.close {
+   
+    font-size: 25px;
+    font-weight: normal;
+  
+   
+    margin-top: -29%;
+    border-radius: 50%;
+  
+    background: red;
+    color: white;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+
+.pagination {
+    display: -ms-flexbox;
+    display: flex;
+    float: right;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+}
+
+.card {
+    height: 58px;
+    border-radius: 14px;
+}
+
+.pagination a.active {
+    background-color: #ff0000;
+    border: 1px solid #4CAF50;
+}
+
+
+.page-link:hover {
+    z-index: 2;
+    color: white;
+    transition: 0.1s ease;
+    text-decoration: none;
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+
+
+.pagination li a {
+    color: black;
+}
+
+.page-item.active .page-link {
+    background-color: #ff0000 !important;
+    border-color: #ff0000 !important;
+}
+
+.sc {
+    margin-left: -21%
+}
+
+.bt1 {
+    background: white;
+    width: 19%;
+    margin: -1%;
+    height: 64px;
+    border-radius: 35px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;
+    color: red;
+}
+
+#test.card-body .new-card {
+    font-size: 17px;
+    padding: 1% 15%;
+    position: absolute;
+    top: 7px;
+    font-weight: 600;
+    right: 5px;
+    background: red;
+    border-radius: 10px;
+}
+
+.btn-ad {
+    background: red;
+    left: 0px;
+    padding: 1% 2%;
+    margin-top: -24%;
+    width: 52%;
+    border-radius: 10px;
+}
+
+.rotate {
+    -moz-transform: rotate(-90.0deg);
+    -o-transform: rotate(-90.0deg);
+    -webkit-transform: rotate(-90.0deg);
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)";
+    transform: rotate(-90.0deg);
+}
+
+.d1 {
+    margin: 0 13%;
+    color: white;
+    border-radius: 10px;
+    padding: 1% 2%;
+    background: red;
+}
+
+.search-btn {
+    border-radius: 34px;
+    /* float: right; */
+    position: absolute;
+    right: 16px;
+    top: 1%;
+    width: 8%;
+    height: 37px;
+    display: inline;
+    margin-right: 0px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.a2 {
+    width: 5%;
+    background-color: red;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.1) !important;
+}
+
+    .a2 p {
+        color: white;
+        font-weight: 700;
+        font-size: 14px;
+        margin: 105px -36px 0 -34px;
+        transform: rotate(-90deg);
+    }
+
+.a3 {
+    margin-left: 21%;
+}
+
+.m1 {
+    margin-left: 1%;
+}
+
+@media all and (min-width: 320px) and (max-width: 600px) {
+    .m1 {
+        margin-left: -1%;
+    }
+
+    .a3 {
+        margin-left: 0%;
+    }
+
+    .a4 {
+        margin-top: 0%;
+    }
+
+    .sc {
+        margin-left: 0%
+    }
+
+    .card1 {
+        margin-top: 4%;
+        width: 100%;
+    }
+
+
+    /*.logo {
+        padding: 1% 2%;
+        position: absolute;
+        top: 1%;
+        right: 0px;
+    }*/
+
+    .btn-ad {
+        background: red;
+        left: 0px;
+        padding: 1% 2%;
+        margin-top: -12%;
+        width: 37%;
+        border-radius: 10px;
+    }
+
+    .a2 th {
+        font-size: 13px;
+    }
+
+    .a2 p {
+        color: white;
+        font-weight: 700;
+        font-size: 14px;
+        margin: 0;
+        transform: inherit;
+    }
+
+    .btn-new {
+        padding: 1% 2%;
+        border-radius: 13px;
+        margin-left: 1%;
+        margin: 7% -1%;
+    }
+
+    .a2 {
+        padding: 3% 2%;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 600px) and (max-width:768px) {
+
+    .card1 {
+        margin-top: 4%;
+        width: 24%;
+    }
+
+    .submit-btn {
+        color: #fff;
+        background-color: #ff0000;
+        border-color: #ff0000;
+        padding: 0;
+        width: 19%;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .btn-ad {
+        background: red;
+        left: 0px;
+        padding: 1% 2%;
+        margin-top: -6%;
+        width: 37%;
+        border-radius: 10px;
+    }
+}
+
+@media all and (min-width: 769px) and (max-width:1024px) {
+
+    .card1 {
+        margin-top: 4%;
+        width: 24%;
+    }
+
+    .submit-btn {
+        color: #fff;
+        background-color: #ff0000;
+        border-color: #ff0000;
+        padding: 0;
+        padding: 2%;
+        width: 24%;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+}
+
+@media (min-width:590px) {
+    #a1 {
+        width: 85%;
+    }
+}

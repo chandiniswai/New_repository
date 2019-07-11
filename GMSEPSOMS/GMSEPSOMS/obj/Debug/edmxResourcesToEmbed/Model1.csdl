@@ -1,0 +1,628 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="G4SOMSFModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="G4SOMSFEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="AppErrorLog_set" ReturnType="Collection(String)">
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="DeviceSerial" Mode="In" Type="String" />
+      <Parameter Name="DeviceIMEI" Mode="In" Type="String" />
+      <Parameter Name="Error" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="AuthorizeforOTP_get" ReturnType="Collection(G4SOMSFModel.AuthorizeforOTP_get_Result)">
+      <Parameter Name="DeviceSerial" Mode="In" Type="String" />
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="password" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="CheckUser_get" ReturnType="Collection(G4SOMSFModel.CheckUser_get_Result)">
+      <Parameter Name="DeviceIMEI" Mode="In" Type="String" />
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="Mobile" Mode="In" Type="String" />
+      <Parameter Name="password" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="DailyOperations_get" ReturnType="Collection(G4SOMSFModel.DailyOperations_get_Result)">
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="DeviceIMEI" Mode="In" Type="String" />
+      <Parameter Name="Type" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="DailyOperations_get_Datewise" ReturnType="Collection(G4SOMSFModel.DailyOperations_get_Datewise_Result)">
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="DeviceIMEI" Mode="In" Type="String" />
+      <Parameter Name="FromDate" Mode="In" Type="DateTime" />
+      <Parameter Name="Todate" Mode="In" Type="DateTime" />
+      <Parameter Name="Type" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="DailyOperations_get_Datewise_V2" ReturnType="Collection(G4SOMSFModel.DailyOperations_get_Datewise_V2_Result)">
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="DeviceIMEI" Mode="In" Type="String" />
+      <Parameter Name="FromDate" Mode="In" Type="DateTime" />
+      <Parameter Name="Todate" Mode="In" Type="DateTime" />
+      <Parameter Name="Type" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="DailyOperations_set" />
+    <FunctionImport Name="DailyOperations_set_EXTRA" />
+    <FunctionImport Name="dd_Branchdetails_get" ReturnType="Collection(G4SOMSFModel.dd_Branchdetails_get_Result)">
+      <Parameter Name="HubAutoid" Mode="In" Type="Int32" />
+      <Parameter Name="UserId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="dd_CustAssignmentDetails_get" ReturnType="Collection(G4SOMSFModel.dd_CustAssignmentDetails_get_Result)">
+      <Parameter Name="BranchCode" Mode="In" Type="String" />
+      <Parameter Name="UserId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="dd_CustAssignmentDetails_mul_get" ReturnType="Collection(G4SOMSFModel.dd_CustAssignmentDetails_mul_get_Result)">
+      <Parameter Name="BranchCode" Mode="In" Type="String" />
+      <Parameter Name="CustCode" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="dd_CustDetails_mul_get" ReturnType="Collection(G4SOMSFModel.dd_CustDetails_mul_get_Result)">
+      <Parameter Name="BranchCode" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="dd_Hubdetails_get" ReturnType="Collection(G4SOMSFModel.dd_Hubdetails_get_Result)">
+      <Parameter Name="UserId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="dd_InsertUpdateEmpAssignmentMapping_get" ReturnType="Collection(String)">
+      <Parameter Name="UserId" Mode="In" Type="Int32" />
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="EmpMobile" Mode="In" Type="String" />
+      <Parameter Name="ProfileId" Mode="In" Type="Int32" />
+      <Parameter Name="HubAutoId" Mode="In" Type="Int32" />
+      <Parameter Name="BranchAutoId" Mode="In" Type="Int32" />
+      <Parameter Name="AssignmentAutoId" Mode="In" Type="Int32" />
+      <Parameter Name="EnteredBy" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="dd_Profiledetails_get" ReturnType="Collection(G4SOMSFModel.dd_Profiledetails_get_Result)">
+      <Parameter Name="ProfileId" Mode="In" Type="Int32" />
+      <Parameter Name="Action" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="EmpAssignment_Delete_set" ReturnType="Collection(String)">
+      <Parameter Name="UserId" Mode="In" Type="Int32" />
+      <Parameter Name="HubCode" Mode="In" Type="String" />
+      <Parameter Name="BranchCode" Mode="In" Type="String" />
+      <Parameter Name="CustCode" Mode="In" Type="String" />
+      <Parameter Name="AssignmentId" Mode="In" Type="String" />
+      <Parameter Name="EnteredBy" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="EmpAssignmentALL_get" ReturnType="Collection(G4SOMSFModel.EmpAssignmentALL_get_Result)">
+      <Parameter Name="ProfileId" Mode="In" Type="Int32" />
+      <Parameter Name="UserId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="EmpAssignmentMappinguser_get" ReturnType="Collection(G4SOMSFModel.EmpAssignmentMappinguser_get_Result)">
+      <Parameter Name="UserId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Employee_Confirm" ReturnType="Collection(String)">
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="password" Mode="In" Type="String" />
+      <Parameter Name="EmployeeCode" Mode="In" Type="String" />
+      <Parameter Name="ShiftCode" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="FetchDetailsforEPSTracker_get" ReturnType="Collection(G4SOMSFModel.FetchDetailsforEPSTracker_get_Result)" />
+    <FunctionImport Name="FetchEmpLeavedetails_Branch_wise_OO_OM_get" ReturnType="Collection(G4SOMSFModel.FetchEmpLeavedetails_Branch_wise_OO_OM_get_Result)">
+      <Parameter Name="UserId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="FetchEmpLeavedetails_Branch_wise_SUP_get" ReturnType="Collection(G4SOMSFModel.FetchEmpLeavedetails_Branch_wise_SUP_get_Result)">
+      <Parameter Name="BranchCode" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="FetchEmployeeBranchWise_OO_OM_get" ReturnType="Collection(G4SOMSFModel.FetchEmployeeBranchWise_OO_OM_get_Result)">
+      <Parameter Name="UserId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="FetchEmployeeBranchWise_OO_OM_get_BK28052019" ReturnType="Collection(G4SOMSFModel.FetchEmployeeBranchWise_OO_OM_get_BK28052019_Result)">
+      <Parameter Name="UserId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="FetchEmployeeBranchWise_OO_OM_get_TEST" ReturnType="Collection(G4SOMSFModel.FetchEmployeeBranchWise_OO_OM_get_TEST_Result)">
+      <Parameter Name="UserId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="FetchEmployeeBranchWise_SUP_get" ReturnType="Collection(G4SOMSFModel.FetchEmployeeBranchWise_SUP_get_Result)">
+      <Parameter Name="BranchCode" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="FetchEmployeeBranchWise_SUP_get_TEST" ReturnType="Collection(G4SOMSFModel.FetchEmployeeBranchWise_SUP_get_TEST_Result)">
+      <Parameter Name="BranchCode" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="FetchReportingDetailsBranchwise">
+      <Parameter Name="BranchCode" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="FetchReportingDetailsBranchwise_Dashboard">
+      <Parameter Name="BranchCode" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="FetchReportingDetailsHUBwise">
+      <Parameter Name="HubCode" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="FetchSchedule_Assign_wise_OO_OM_get" ReturnType="Collection(G4SOMSFModel.FetchSchedule_Assign_wise_OO_OM_get_Result)">
+      <Parameter Name="UserId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="FetchSchedule_Assign_wise_SUP_get" ReturnType="Collection(G4SOMSFModel.FetchSchedule_Assign_wise_SUP_get_Result)">
+      <Parameter Name="CustomerCode" Mode="In" Type="String" />
+      <Parameter Name="AssignmentId" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="FetchScheduleInfo_get" ReturnType="Collection(String)">
+      <Parameter Name="BranchCode" Mode="In" Type="String" />
+      <Parameter Name="CustomerCode" Mode="In" Type="String" />
+      <Parameter Name="AssignmentId" Mode="In" Type="String" />
+      <Parameter Name="WageCode" Mode="In" Type="String" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+      <Parameter Name="DeviceImei" Mode="In" Type="String" />
+      <Parameter Name="ShiftCode" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="FetchScheduleInfo_get_V1" ReturnType="Collection(G4SOMSFModel.FetchScheduleInfo_get_V1_Result)">
+      <Parameter Name="BranchCode" Mode="In" Type="String" />
+      <Parameter Name="CustomerCode" Mode="In" Type="String" />
+      <Parameter Name="AssignmentId" Mode="In" Type="String" />
+      <Parameter Name="WageCode" Mode="In" Type="String" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+      <Parameter Name="DeviceImei" Mode="In" Type="String" />
+      <Parameter Name="ShiftCode" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="FetchSoPostdetails_Assign_wise_OO_OM_get" ReturnType="Collection(G4SOMSFModel.FetchSoPostdetails_Assign_wise_OO_OM_get_Result)">
+      <Parameter Name="UserId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="FetchSoPostdetails_Assign_wise_OO_OM_get_TEST" ReturnType="Collection(G4SOMSFModel.FetchSoPostdetails_Assign_wise_OO_OM_get_TEST_Result)">
+      <Parameter Name="UserId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="FetchSoPostdetails_Assign_wise_OO_OM_get_VER1" ReturnType="Collection(G4SOMSFModel.FetchSoPostdetails_Assign_wise_OO_OM_get_VER1_Result)">
+      <Parameter Name="UserId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="FetchSoPostdetails_Assign_wise_SUP_get" ReturnType="Collection(G4SOMSFModel.FetchSoPostdetails_Assign_wise_SUP_get_Result)">
+      <Parameter Name="CustomerCode" Mode="In" Type="String" />
+      <Parameter Name="AssignmentId" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="FetchSoPostdetails_Assign_wise_SUP_get_VER1" ReturnType="Collection(G4SOMSFModel.FetchSoPostdetails_Assign_wise_SUP_get_VER1_Result)">
+      <Parameter Name="CustomerCode" Mode="In" Type="String" />
+      <Parameter Name="AssignmentId" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="logindetails_get" ReturnType="Collection(G4SOMSFModel.logindetails_get_Result)">
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="Pwd" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Menudetails_get" ReturnType="Collection(G4SOMSFModel.Menudetails_get_Result)">
+      <Parameter Name="ProfileId" Mode="In" Type="Int32" />
+      <Parameter Name="Gms" Mode="In" Type="String" />
+      <Parameter Name="Eps" Mode="In" Type="String" />
+      <Parameter Name="Oms" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="ReloadInfo_set" ReturnType="Collection(G4SOMSFModel.ReloadInfo_set_Result)">
+      <Parameter Name="DeviceSerial" Mode="In" Type="String" />
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="password" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(G4SOMSFModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(G4SOMSFModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <FunctionImport Name="sp_UserPwdManager_get" ReturnType="Collection(G4SOMSFModel.sp_UserPwdManager_get_Result)">
+      <Parameter Name="Action" Mode="In" Type="String" />
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="CurrentPwd" Mode="In" Type="String" />
+      <Parameter Name="NewPwd" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="UpdateDataToMainTables_set" />
+    <FunctionImport Name="UpdateScheduleOut_set">
+      <Parameter Name="Uploadedby" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="UpdateScheduleOut_setBK25052019">
+      <Parameter Name="Uploadedby" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="UserConfirmed_set" ReturnType="Collection(G4SOMSFModel.UserConfirmed_set_Result)">
+      <Parameter Name="DeviceIMEI" Mode="In" Type="String" />
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="password" Mode="In" Type="String" />
+      <Parameter Name="OTP" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SyncProcedure">
+      <Parameter Name="data" Mode="In" Type="String" />
+      <Parameter Name="queryType" Mode="In" Type="String" />
+      <Parameter Name="tableName" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="AuthorizeforOTP_get_Result">
+    <Property Type="String" Name="Response" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="Mobile" Nullable="true" MaxLength="10" />
+  </ComplexType>
+  <ComplexType Name="CheckUser_get_Result">
+    <Property Type="String" Name="Response" Nullable="true" />
+    <Property Type="String" Name="OTP" Nullable="true" MaxLength="6" />
+    <Property Type="String" Name="MobileNo" Nullable="true" MaxLength="15" />
+    <Property Type="Int32" Name="ProfileId" Nullable="true" />
+    <Property Type="String" Name="SC" Nullable="true" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="DailyOperations_get_Result">
+    <Property Type="String" Name="CC" Nullable="true" MaxLength="8000" />
+    <Property Type="String" Name="CN" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="HC" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="HNA" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="BC" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="BDES" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="SN" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="SOLN" Nullable="true" />
+    <Property Type="String" Name="ASID" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="ASAD" Nullable="true" MaxLength="255" />
+    <Property Type="DateTime" Name="CD" Nullable="true" />
+    <Property Type="String" Name="SC" Nullable="false" MaxLength="1" />
+    <Property Type="Int32" Name="NFPO" Nullable="true" />
+    <Property Type="Int32" Name="NFPER" Nullable="true" />
+    <Property Type="Decimal" Name="CHRS" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Int32" Name="NFSCH" Nullable="true" />
+    <Property Type="Int32" Name="SHRS" Nullable="true" />
+    <Property Type="Int32" Name="NFAD" Nullable="true" />
+    <Property Type="Int32" Name="NFREP" Nullable="true" />
+    <Property Type="Int32" Name="NFSD" Nullable="true" />
+    <Property Type="Int32" Name="NFVAC" Nullable="true" />
+    <Property Type="Int32" Name="C_NFWO" Nullable="true" />
+    <Property Type="Int32" Name="NOSC" Nullable="true" />
+    <Property Type="Int32" Name="NFRAT" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="DailyOperations_get_Datewise_Result">
+    <Property Type="String" Name="CC" Nullable="true" MaxLength="8000" />
+    <Property Type="String" Name="CN" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="HC" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="HNA" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="BC" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="BDES" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="SN" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="SOLN" Nullable="true" />
+    <Property Type="String" Name="ASID" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="ASAD" Nullable="true" MaxLength="255" />
+    <Property Type="DateTime" Name="CD" Nullable="true" />
+    <Property Type="String" Name="SC" Nullable="false" MaxLength="1" />
+    <Property Type="Int32" Name="NFPO" Nullable="true" />
+    <Property Type="Int32" Name="NFPER" Nullable="true" />
+    <Property Type="Decimal" Name="CHRS" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Int32" Name="NFSCH" Nullable="true" />
+    <Property Type="Int32" Name="SHRS" Nullable="true" />
+    <Property Type="Int32" Name="NFAD" Nullable="true" />
+    <Property Type="Int32" Name="NFREP" Nullable="true" />
+    <Property Type="Int32" Name="NFSD" Nullable="true" />
+    <Property Type="Int32" Name="NFVAC" Nullable="true" />
+    <Property Type="Int32" Name="C_NFWO" Nullable="true" />
+    <Property Type="Int32" Name="NOSC" Nullable="true" />
+    <Property Type="Int32" Name="NFRAT" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="DailyOperations_get_Datewise_V2_Result">
+    <Property Type="String" Name="CC" Nullable="true" MaxLength="8000" />
+    <Property Type="String" Name="CN" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="HC" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="HNA" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="BC" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="BDES" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="SN" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="SOLN" Nullable="true" />
+    <Property Type="String" Name="ASID" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="ASAD" Nullable="true" MaxLength="255" />
+    <Property Type="DateTime" Name="CD" Nullable="true" />
+    <Property Type="String" Name="SC" Nullable="false" MaxLength="1" />
+    <Property Type="Int32" Name="NFPO" Nullable="true" />
+    <Property Type="Int32" Name="NFPER" Nullable="true" />
+    <Property Type="Decimal" Name="CHRS" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Int32" Name="NFSCH" Nullable="true" />
+    <Property Type="Int32" Name="SHRS" Nullable="true" />
+    <Property Type="Int32" Name="NFAD" Nullable="true" />
+    <Property Type="Int32" Name="ADHRS" Nullable="true" />
+    <Property Type="Int32" Name="NFREP" Nullable="true" />
+    <Property Type="Int32" Name="NFSD" Nullable="true" />
+    <Property Type="Int32" Name="SDHRS" Nullable="true" />
+    <Property Type="Int32" Name="NFVAC" Nullable="true" />
+    <Property Type="Int32" Name="VCHRS" Nullable="true" />
+    <Property Type="Int32" Name="NFWO" Nullable="true" />
+    <Property Type="Int32" Name="NOSC" Nullable="true" />
+    <Property Type="Int32" Name="NFRAT" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="dd_Branchdetails_get_Result">
+    <Property Type="String" Name="BranchCode" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="BranchName" Nullable="false" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="dd_CustAssignmentDetails_get_Result">
+    <Property Type="Int32" Name="AssignmentAutoId" Nullable="false" />
+    <Property Type="String" Name="AssignmentName" Nullable="false" MaxLength="38" />
+  </ComplexType>
+  <ComplexType Name="dd_CustAssignmentDetails_mul_get_Result">
+    <Property Type="String" Name="AssignmentId" Nullable="false" MaxLength="82" />
+    <Property Type="String" Name="AssignmentAddress" Nullable="false" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="dd_CustDetails_mul_get_Result">
+    <Property Type="String" Name="CustCode" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="CustName" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="dd_Hubdetails_get_Result">
+    <Property Type="Int32" Name="HubAutoId" Nullable="false" />
+    <Property Type="String" Name="HubName" Nullable="false" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="dd_Profiledetails_get_Result">
+    <Property Type="Int32" Name="ProfileId" Nullable="true" />
+    <Property Type="String" Name="ProfileName" Nullable="false" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="EmpAssignmentALL_get_Result">
+    <Property Type="Int32" Name="UserId" Nullable="false" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="80" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="MobileNo" Nullable="true" MaxLength="13" />
+    <Property Type="String" Name="DeviceSerial" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="HUBCODE" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="BranchCode" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="CustCode" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="CustName" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="AssignmentId" Nullable="false" MaxLength="6" />
+    <Property Type="Int32" Name="ProfileId" Nullable="true" />
+    <Property Type="String" Name="ProfileCode" Nullable="false" MaxLength="10" />
+  </ComplexType>
+  <ComplexType Name="EmpAssignmentMappinguser_get_Result">
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="80" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="MobileNo" Nullable="true" MaxLength="13" />
+    <Property Type="Int32" Name="ProfileId" Nullable="true" />
+    <Property Type="String" Name="ProfileName" Nullable="false" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="FetchDetailsforEPSTracker_get_Result">
+    <Property Type="String" Name="BranchName" Nullable="false" MaxLength="100" />
+    <Property Type="Int32" Name="HeadCount" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="FetchEmpLeavedetails_Branch_wise_OO_OM_get_Result">
+    <Property Type="String" Name="BC" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="EC" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="EN" Nullable="false" MaxLength="100" />
+    <Property Type="DateTime" Name="SD" Nullable="false" />
+    <Property Type="DateTime" Name="ED" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="FetchEmpLeavedetails_Branch_wise_SUP_get_Result">
+    <Property Type="String" Name="BC" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="EC" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="EN" Nullable="false" MaxLength="100" />
+    <Property Type="DateTime" Name="SD" Nullable="false" />
+    <Property Type="DateTime" Name="ED" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="FetchEmployeeBranchWise_OO_OM_get_Result">
+    <Property Type="String" Name="EC" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="EN" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="EM" Nullable="false" MaxLength="13" />
+    <Property Type="String" Name="DN" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="BC" Nullable="false" MaxLength="30" />
+    <Property Type="Int32" Name="DH" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="FetchEmployeeBranchWise_OO_OM_get_BK28052019_Result">
+    <Property Type="String" Name="EC" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="EN" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="EM" Nullable="false" MaxLength="13" />
+    <Property Type="String" Name="DN" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="BC" Nullable="false" MaxLength="30" />
+    <Property Type="Int32" Name="DH" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="FetchEmployeeBranchWise_OO_OM_get_TEST_Result">
+    <Property Type="String" Name="EC" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="EN" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="EM" Nullable="false" MaxLength="13" />
+    <Property Type="String" Name="DN" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="BC" Nullable="false" MaxLength="30" />
+    <Property Type="Int32" Name="DH" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="FetchEmployeeBranchWise_SUP_get_Result">
+    <Property Type="String" Name="EC" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="EN" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="EM" Nullable="false" MaxLength="13" />
+    <Property Type="String" Name="DN" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="BC" Nullable="false" MaxLength="30" />
+    <Property Type="Int32" Name="DH" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="FetchEmployeeBranchWise_SUP_get_TEST_Result">
+    <Property Type="String" Name="EC" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="EN" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="EM" Nullable="false" MaxLength="13" />
+    <Property Type="String" Name="DN" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="BC" Nullable="false" MaxLength="30" />
+    <Property Type="Int32" Name="DH" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="FetchSchedule_Assign_wise_OO_OM_get_Result">
+    <Property Type="Decimal" Name="AI" Nullable="false" Precision="20" Scale="0" />
+    <Property Type="String" Name="EC" Nullable="false" MaxLength="13" />
+    <Property Type="String" Name="EN" Nullable="false" MaxLength="150" />
+    <Property Type="String" Name="DN" Nullable="false" MaxLength="100" />
+    <Property Type="Int32" Name="PAID" Nullable="false" />
+    <Property Type="String" Name="Po" Nullable="false" MaxLength="50" />
+    <Property Type="DateTime" Name="Date" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="Stime" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="Etime" Nullable="true" Precision="23" />
+    <Property Type="String" Name="SC" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="BC" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="BN" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="CC" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="CN" Nullable="false" MaxLength="150" />
+    <Property Type="String" Name="ASID" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="ASA" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="DS" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="DP" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="SN" Nullable="false" MaxLength="40" />
+    <Property Type="Int32" Name="SLN" Nullable="false" />
+    <Property Type="String" Name="SR" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="ST" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="DPEC" Nullable="false" MaxLength="13" />
+    <Property Type="String" Name="DPEN" Nullable="false" MaxLength="150" />
+    <Property Type="String" Name="DPED" Nullable="false" MaxLength="50" />
+    <Property Type="DateTime" Name="DPDT" Nullable="false" Precision="23" />
+    <Property Type="DateTime" Name="DPST" Nullable="false" Precision="23" />
+    <Property Type="DateTime" Name="DPET" Nullable="false" Precision="23" />
+    <Property Type="Int32" Name="DM" Nullable="false" />
+    <Property Type="String" Name="AB" Nullable="false" MaxLength="100" />
+    <Property Type="DateTime" Name="AT" Nullable="false" Precision="23" />
+    <Property Type="String" Name="KV" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="CL" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="US" Nullable="false" MaxLength="5" />
+  </ComplexType>
+  <ComplexType Name="FetchSchedule_Assign_wise_SUP_get_Result">
+    <Property Type="Decimal" Name="AI" Nullable="false" Precision="20" Scale="0" />
+    <Property Type="String" Name="EC" Nullable="false" MaxLength="13" />
+    <Property Type="String" Name="EN" Nullable="false" MaxLength="150" />
+    <Property Type="String" Name="DN" Nullable="false" MaxLength="100" />
+    <Property Type="Int32" Name="PAID" Nullable="false" />
+    <Property Type="String" Name="Po" Nullable="false" MaxLength="50" />
+    <Property Type="DateTime" Name="Date" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="Stime" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="Etime" Nullable="true" Precision="23" />
+    <Property Type="String" Name="SC" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="BC" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="BN" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="CC" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="CN" Nullable="false" MaxLength="150" />
+    <Property Type="String" Name="ASID" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="ASA" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="DS" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="DP" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="SN" Nullable="false" MaxLength="40" />
+    <Property Type="Int32" Name="SLN" Nullable="false" />
+    <Property Type="String" Name="SR" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="ST" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="DPEC" Nullable="false" MaxLength="13" />
+    <Property Type="String" Name="DPEN" Nullable="false" MaxLength="150" />
+    <Property Type="String" Name="DPED" Nullable="false" MaxLength="50" />
+    <Property Type="DateTime" Name="DPDT" Nullable="false" Precision="23" />
+    <Property Type="DateTime" Name="DPST" Nullable="false" Precision="23" />
+    <Property Type="DateTime" Name="DPET" Nullable="false" Precision="23" />
+    <Property Type="Int32" Name="DM" Nullable="false" />
+    <Property Type="String" Name="AB" Nullable="false" MaxLength="100" />
+    <Property Type="DateTime" Name="AT" Nullable="false" Precision="23" />
+    <Property Type="String" Name="KV" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="CL" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="US" Nullable="false" MaxLength="5" />
+  </ComplexType>
+  <ComplexType Name="FetchScheduleInfo_get_V1_Result">
+    <Property Type="String" Name="Response" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="BC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="BN" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="CC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="CN" Nullable="true" MaxLength="150" />
+    <Property Type="String" Name="ASID" Nullable="true" MaxLength="212" />
+    <Property Type="String" Name="SC" Nullable="true" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="FetchSoPostdetails_Assign_wise_OO_OM_get_Result">
+    <Property Type="String" Name="BC" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="CC" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="ASID" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="SN" Nullable="false" MaxLength="30" />
+    <Property Type="Int32" Name="SLNO" Nullable="false" />
+    <Property Type="String" Name="SR" Nullable="false" MaxLength="50" />
+    <Property Type="Decimal" Name="PID" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="String" Name="PO" Nullable="true" MaxLength="60" />
+  </ComplexType>
+  <ComplexType Name="FetchSoPostdetails_Assign_wise_OO_OM_get_TEST_Result">
+    <Property Type="String" Name="BC" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="BN" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="CC" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="CN" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="ASID" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="ASA" Nullable="false" MaxLength="200" />
+    <Property Type="String" Name="SN" Nullable="false" MaxLength="30" />
+    <Property Type="Int32" Name="SLNO" Nullable="false" />
+    <Property Type="String" Name="SR" Nullable="false" MaxLength="50" />
+    <Property Type="Decimal" Name="PID" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="String" Name="PO" Nullable="true" MaxLength="60" />
+    <Property Type="String" Name="SC" Nullable="false" MaxLength="13" />
+    <Property Type="String" Name="ST" Nullable="true" MaxLength="76" />
+  </ComplexType>
+  <ComplexType Name="FetchSoPostdetails_Assign_wise_OO_OM_get_VER1_Result">
+    <Property Type="String" Name="BC" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="BN" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="CC" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="CN" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="ASID" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="ASA" Nullable="false" MaxLength="200" />
+    <Property Type="String" Name="SN" Nullable="false" MaxLength="30" />
+    <Property Type="Int32" Name="SLNO" Nullable="false" />
+    <Property Type="String" Name="SR" Nullable="false" MaxLength="50" />
+    <Property Type="Decimal" Name="PID" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="String" Name="PO" Nullable="true" MaxLength="60" />
+    <Property Type="String" Name="SC" Nullable="false" MaxLength="19" />
+    <Property Type="String" Name="ST" Nullable="true" MaxLength="82" />
+  </ComplexType>
+  <ComplexType Name="FetchSoPostdetails_Assign_wise_SUP_get_Result">
+    <Property Type="String" Name="BC" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="CC" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="ASID" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="SN" Nullable="false" MaxLength="30" />
+    <Property Type="Int32" Name="SLNO" Nullable="false" />
+    <Property Type="String" Name="SR" Nullable="false" MaxLength="50" />
+    <Property Type="Decimal" Name="PID" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="String" Name="PO" Nullable="true" MaxLength="60" />
+  </ComplexType>
+  <ComplexType Name="FetchSoPostdetails_Assign_wise_SUP_get_VER1_Result">
+    <Property Type="String" Name="BC" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="BN" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="CC" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="CN" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="ASID" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="ASA" Nullable="false" MaxLength="200" />
+    <Property Type="String" Name="SN" Nullable="false" MaxLength="30" />
+    <Property Type="Int32" Name="SLNO" Nullable="false" />
+    <Property Type="String" Name="SR" Nullable="false" MaxLength="50" />
+    <Property Type="Decimal" Name="PID" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="String" Name="PO" Nullable="true" MaxLength="60" />
+    <Property Type="String" Name="SC" Nullable="false" MaxLength="19" />
+    <Property Type="String" Name="ST" Nullable="true" MaxLength="82" />
+  </ComplexType>
+  <ComplexType Name="logindetails_get_Result">
+    <Property Type="String" Name="Response" Nullable="false" MaxLength="5" />
+    <Property Type="Int32" Name="UserId" Nullable="false" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="80" />
+    <Property Type="String" Name="Pwd" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="100" />
+    <Property Type="Int32" Name="ProfileId" Nullable="false" />
+    <Property Type="String" Name="ProfileCode" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="ProfileName" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="GMS" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="EPS" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="OMSOFF" Nullable="true" MaxLength="1" />
+  </ComplexType>
+  <ComplexType Name="Menudetails_get_Result">
+    <Property Type="Int16" Name="optionId" Nullable="false" />
+    <Property Type="String" Name="optionName" Nullable="false" MaxLength="150" />
+    <Property Type="Int16" Name="parentOptionId" Nullable="true" />
+    <Property Type="String" Name="linkName" Nullable="true" MaxLength="150" />
+    <Property Type="Int16" Name="sequence" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="ReloadInfo_set_Result">
+    <Property Type="String" Name="Response" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="UserId" Nullable="true" MaxLength="10" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_UserPwdManager_get_Result">
+    <Property Type="String" Name="Response" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="80" />
+    <Property Type="String" Name="Mobile" Nullable="false" MaxLength="13" />
+  </ComplexType>
+  <ComplexType Name="UserConfirmed_set_Result">
+    <Property Type="String" Name="Response" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="DeviceSerialNo" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="DevicePwd" Nullable="true" MaxLength="30" />
+    <Property Type="Int32" Name="ProfileId" Nullable="true" />
+    <Property Type="String" Name="ProfileName" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="UserId" Nullable="true" MaxLength="10" />
+  </ComplexType>
+</Schema>

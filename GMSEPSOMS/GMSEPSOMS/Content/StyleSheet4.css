@@ -1,0 +1,759 @@
+﻿/*
+    DEMO STYLE
+*/
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    
+}
+
+p {
+ 
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+#sidebar ul.components {
+    border-bottom: 0px solid #47748b !important;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 5px 0px 10px 40px;
+    display: block;
+    font-size: 16px;
+    display: block;
+    color: white;
+    /*height: -webkit-fill-available;*/
+}
+
+    #sidebar ul li a:hover {
+        color: #7386D5;
+        background: #fff;
+    }
+
+#sidebar ul li.active > a,
+a[aria-expanded="true"] {
+    color: red;
+    background: white;
+}
+l ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+    ul.CTAs a {
+        text-align: center;
+        font-size: 19px !important;
+        display: block;
+        border-radius: 30px;
+        margin-bottom: 5px;
+        background-color: white;
+        color: red;
+    }
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+/* ---------------------------------------------------
+    UPLOAD IMAGE
+----------------------------------------------------- */
+.profile-pic {
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+}
+
+.file-upload {
+    display: none;
+}
+
+
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            overflow-x: hidden; 
+            transition: 0.5s;
+            display:flex;
+        }
+
+            .sidenav a {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 25px;
+                color: #818181;
+                transition: 0.3s;
+            }
+
+                .sidenav a:hover {
+                    color: #f1f1f1;
+                }
+
+            .sidenav .closebtn {
+                position: absolute;
+                top: 0;
+                right: 25px;
+                font-size: 36px;
+                margin-left: 50px;
+            }
+
+        #main {
+            transition: margin-left .5s;
+            padding: 16px;
+            overflow:hidden;
+        }
+
+        /*@media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+
+                .sidenav a {
+                    font-size: 18px;
+                }
+        }*/
+
+.circle {
+    border-radius: 1000px !important;
+    overflow: hidden;
+    width: 128px;
+    height: 128px;
+    margin-left: 17%;
+    border: 3px solid #f8f9fa;
+}
+
+#c123 {
+    border-radius: 1000px !important;
+    width: 65px;
+    height: 65px;
+    border: 3px solid #f8f9fa;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.p-image {
+    position: static;
+    margin: -30% 0 0 100%;
+    color: #666666;
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+
+    .p-image:hover {
+        transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+    }
+
+.upload-button {
+    font-size: 1.2em;
+}
+
+    .upload-button:hover {
+        transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+        color: #999;
+    }
+
+.circle-icon {
+    background: white;
+    padding: 5px;
+    border-radius: 60%;
+}
+
+/* ---------------------------------------------------
+    SIDEBOX STYLE
+----------------------------------------------------- */
+/*.rotate {
+    -webkit-transform: rotate(-90deg);
+    font: bold 15px Sans-Serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: #f00;
+    color: #fff;
+    float: left;
+    line-height: 24px;
+    
+}
+
+.s1 {
+    vertical-align: middle;
+    text-align: center;
+    word-wrap: break-word;
+    writing-mode:vertical-rl !important;
+
+}*/
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+/*@media (max-width: 576px) {
+
+    #MQ1 {
+       
+       
+    }*/
+    /*
+    DEMO STYLE
+*/
+
+    @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.1em;
+        font-weight: 300;
+        line-height: 1.7em;
+        color: #999;
+    }
+
+    a,
+    a:hover,
+    a:focus {
+        color: inherit;
+        text-decoration: none;
+       
+    }
+
+    .navbar {
+        padding: 5px 5px;
+        background: #fff;
+        border: none;
+        border-radius: 0;
+        /*margin-bottom: 40px;*/
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-btn {
+        box-shadow: none;
+        outline: none !important;
+        border: none;
+    }
+
+    .line {
+        width: 100%;
+        height: 1px;
+        border-bottom: 1px dashed #ddd;
+        margin: 40px 0;
+    }
+
+
+    /* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+ 
+    .btn-danger {
+        color: #fff;
+        background-color: #ff0000;
+        border-color: #ff0000;
+    }
+
+    .t1 {
+        line-height: 20px;
+        font-size: 15px;
+        font-weight: 500;
+        margin: 10px 0 0 5px;
+    }
+
+
+    /* ---------------------------------------------------
+    UPLOAD IMAGE
+----------------------------------------------------- */
+    .profile-pic {
+        max-width: 200px;
+        max-height: 200px;
+        display: block;
+    }
+
+    .file-upload {
+        display: none;
+    }
+
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        overflow-x: hidden;
+       
+        display: flex;
+    }
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+          
+        }
+
+            .sidenav a:hover {
+                color: #f1f1f1;
+            }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+    #main {
+       
+        padding: 16px;
+    }
+
+    /*@media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+
+                .sidenav a {
+                    font-size: 18px;
+                }
+        }*/
+
+    .circle {
+        border-radius: 1000px !important;
+        overflow: hidden;
+        width: 128px;
+        height: 128px;
+        margin-left: 17%;
+        border: 3px solid #f8f9fa;
+    }
+
+    #c123 {
+        border-radius: 1000px !important;
+        width: 65px;
+        height: 65px;
+        border: 3px solid #f8f9fa;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .p-image {
+        position: static;
+        margin: -30% 0 0 100%;
+        color: #666666;
+        transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+    }
+
+        .p-image:hover {
+            transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+        }
+
+    .upload-button {
+        font-size: 1.2em;
+    }
+
+        .upload-button:hover {
+            transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+            color: #999;
+        }
+
+    .circle-icon {
+        background: white;
+        padding: 5px;
+        border-radius: 60%;
+    }
+
+    /* ---------------------------------------------------
+    SIDEBOX STYLE
+----------------------------------------------------- */
+    /*.rotate {
+    -webkit-transform: rotate(-90deg);
+    font: bold 15px Sans-Serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: #f00;
+    color: #fff;
+    float: left;
+    line-height: 24px;
+    
+}
+
+.s1 {
+    vertical-align: middle;
+    text-align: center;
+    word-wrap: break-word;
+    writing-mode:vertical-rl !important;
+
+}*/
+
+    /* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+    @media (max-width: 576px) {
+
+        #MQ1 {
+            margin: 0 0 7px 0px;
+            
+        }
+    }
+
+    @media (min-width: 576px) {
+
+        #MQ1 {
+            margin: 10px 0 0 0;
+        }
+    }
+
+    @media (max-width: 991px) {
+
+        #s2 {
+            margin-top: 3%;
+        }
+    }
+
+    @media (max-width: 1062px) {
+
+        #s3 {
+            margin-top: 0 -23px 0 -20px;
+        }
+    }
+
+    @media (min-width: 1062px) {
+
+        #s3 {
+            margin: 0 -35px 0 -35px;
+        }
+    }
+
+@media (min-width: 576px) {
+
+    #MQ1 {
+        margin: 5px 0 0 0;
+    }
+}
+
+@media (max-width: 991px) {
+
+    #s2 {
+        margin-top: 3%;
+    }
+}
+
+@media (max-width: 1062px) {
+
+    #s3 {
+        margin-top: 0 -23px 0 -20px;
+    }
+}
+
+@media (min-width: 1062px) {
+
+    #s3 {
+        margin: 0 -32px 0 -25px;
+    }
+}
+
+/* ---------------------------------------------------
+    TABLE STYLE
+----------------------------------------------------- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    /*margin-top: 1%;*/
+    box-shadow: 0 0 5px #cecdd6;
+}
+td {
+    border-collapse: collapse;
+    border: 1px #c3c7cc solid;
+    padding: 2px;
+
+    font-size: 14px;
+}
+
+.rotate {
+  
+    transform: rotate(-90.0deg);
+}
+
+/* ---------------------------------------------------
+    TABLE SCROLL STYLE
+----------------------------------------------------- */
+
+.zui-table {
+    border-right: solid 1px #DDEFEF;
+    border-collapse: separate;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+}
+
+    .zui-table thead th {
+        border-right: solid 1px #DDEFEF;
+        background-color: red;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    .zui-table tbody td {
+        border-left: solid 1px #DDEFEF;
+        border-right: solid 1px #DDEFEF;
+        border-bottom: solid 1px #DDEFEF;
+        padding: 10px;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+.zui-wrapper {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 506px;
+    position: relative;
+}
+
+.zui-scroller {
+    margin-left: 440px;
+    margin-right: 280px;
+    overflow-x: scroll;
+    overflow-y: visible;
+    padding-bottom: 5px;
+    /*width: 300px;*/
+}
+
+.zui-table .zui-sticky-col {
+    border-left: solid 1px #DDEFEF;
+    border-right: solid 1px #DDEFEF;
+    left: 0;
+    position: absolute;
+    top: auto;
+    width: 40px;
+}
+
+.zui-table .zui-sticky-col1 {
+    border-left: solid 1px #DDEFEF;
+    border-right: solid 1px #DDEFEF;
+    left: 40px;
+    position: absolute;
+    top: auto;
+    width: 400PX
+}
+
+.zui-table .zui-sticky-col2 {
+    border-left: solid 1px #DDEFEF;
+    border-right: solid 1px #DDEFEF;
+    right: 0px;
+    position: absolute;
+    top: auto;
+    width: 180px;
+}
+
+.zui-table .zui-sticky-col3 {
+    border-left: solid 1px #DDEFEF;
+    border-right: solid 1px #DDEFEF;
+    right: 180px;
+    position: absolute;
+    top: auto;
+    width: 100px;
+}
+
+thead {
+    position: sticky;
+}
+
+
+/*detailed report*/
+.div1 {
+    border-left: solid 1px #DDEFEF;
+    border-right: solid 1px #DDEFEF;
+    border-bottom: solid 1px #DDEFEF;
+    max-width: 100%;
+    max-height: 380PX;
+    overflow: scroll;
+    position: relative;
+}
+
+table1 {
+    position: relative;
+    border-collapse: collapse;
+}
+
+
+
+.div1 .table1 thead th {
+    position: -webkit-sticky; /* for Safari */
+    position: sticky;
+    top: 0;
+    background: #f00;
+    color: #FFF;
+    border-right: solid 1px #DDEFEF;
+    background-color: #ff243a;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+    .div1 .table1 thead th:first-child {
+        border-left: solid 1px #DDEFEF;
+        border-right: solid 1px #DDEFEF;
+        border-bottom: solid 1px #DDEFEF;
+        padding: 0px 6px;
+        text-align: center;
+        white-space: nowrap;
+        left: 0;
+        z-index: 1;
+    }
+
+.div1 .table1 .aa3 th {
+    position: -webkit-sticky;
+    position: sticky;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 7px 10px;
+    line-height: 1.5;
+    color: #212529;
+    white-space: nowrap;
+    left: 0;
+    border-left: solid 1px #DDEFEF;
+    border-right: solid 1px #DDEFEF;
+    border-bottom: solid 1px #DDEFEF;
+    background-color: white;
+}
+
+.div1 .table1 tbody td {
+    border-left: solid 1px #DDEFEF;
+    border-right: solid 1px #DDEFEF;
+    border-bottom: solid 1px #DDEFEF;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 7px 10px;
+}
+
+/*------------------------------------------------------------
+    Spinner
+-------------------------------------------------------*/
+
+/* Center the loader */
+#loader1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0px;
+        opacity: 1
+    }
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+#myDiv1 {
+    display: none;
+    text-align: center;
+}
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+}
+.f2 {
+  
+    color: white;
+    padding: 6px 0px 0px 0;
+    text-align: center;
+    margin-left: 28%;
+}
+.f3 {
+    margin-left: 20px;
+}

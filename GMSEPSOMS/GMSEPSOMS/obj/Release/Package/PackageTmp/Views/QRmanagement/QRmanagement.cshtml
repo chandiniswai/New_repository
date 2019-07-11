@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "QRmanagement";
+    Layout = "~/Views/Shared/_LayoutPageOffSite.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-3  col-sm-12">
+        <div class="G4SOfficials-dropdown">
+            <select class="form-control">
+                <option value="0">Google India Private Limited.</option>
+                <option value="1">ABC</option>
+            </select>
+        </div>
+    </div>
+    <div class="col-lg-3  col-sm-12">
+        <div class="G4SOfficials-dropdown">
+            <select class="form-control">
+                <option value="0">Hyderbad</option>
+                <option value="1">ABC</option>
+            </select>
+        </div>
+    </div>
+    <div class="col-lg-3  col-sm-12">
+        <div class="G4SOfficials-dropdown">
+            <select class="form-control">
+                <option value="0">Omega buldig bloackA</option>
+                <option value="1">ABC</option>
+            </select>
+        </div>
+    </div>
+
+    <div class=" col-lg-3 col-sm-12">
+        <button style="padding: 6px;border-radius: 25px;border: red;background: red;color: white;">
+            Generate QR Code
+        </button>
+    </div>
+</div>
+<br />
+@*----QR CODE---*@
+    <div class="text" style="margin-left:10%;">
+        <p style="color:red;font-weight:600;font-size:15px;">QR Code for</p>
+        <p style="color:red; font-weight:600;font-size:15px;">Client: Google India Private Limited.</p>
+        <p style="color:red; font-weight:600;font-size:15px;">City: Hyderabad</p>
+        <p style="color:red;font-weight:600;font-size:15px;">Address: Omega Buliding BlockA Kothgudakonapura</p>
+    </div>
+<br/>
+    <center>
+        <img src="~/Images/QR_code.png"  alt="G4S" height="130" width="130"/>
+        
+    </center>
+    <center>
+        <button style="padding:10px 30px 10px 30px;border-radius: 25px;border: red;background: red;color: white;"><i class="fa fa-download" aria-hidden="true"></i>&nbsp; Download</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <button style="padding:10px 50px 10px 50px;margin: 10px;border-radius: 25px;border: red;background: red;color: white;"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; Email</button>
+    </center>

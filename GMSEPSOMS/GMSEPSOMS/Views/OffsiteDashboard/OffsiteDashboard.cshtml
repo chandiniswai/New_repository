@@ -1,0 +1,226 @@
+﻿
+@{
+    ViewBag.Title = "OffsiteDashboard";
+    Layout = "~/Views/Shared/_LayoutPageOffSite.cshtml";
+
+}
+    @*<style>
+        body {
+            overflow: hidden;
+        }
+    </style>*@
+<script src="~/Scripts/CanvasJS.js"></script>
+
+<script>
+    window.onload = function () {
+
+        var chart = new CanvasJS.Chart("chartContainer", {
+            animationEnabled: true,
+            title: {
+                text: "SITE INSPECTION"
+            },
+            data: [{
+                type: "pie",
+                startAngle: 240,
+                yValueFormatString: "##0.00\"%\"",
+                indexLabel: "{label} {y}",
+                dataPoints: [
+                    { y: 6.45, label: "Day", color: "#bdbfc1" },
+                    { y: 4.31, label: "Night", color: "#96989a " },
+                    { y: 5.06, label: "Surprise", color: "#727376" },
+                    { y: 3.26, label: "Others", color: "#4a4a49" }
+                ]
+            }]
+        });
+        chart.render();
+
+
+
+        var chart1 = new CanvasJS.Chart("chartContainer1", {
+            animationEnabled: true,
+            title: {
+                text: "CUSTOMER VISITS"
+            },
+            data: [{
+                type: "pie",
+                startAngle: 240,
+                yValueFormatString: "##0.00\"%\"",
+                indexLabel: "{label} {y}",
+                dataPoints: [
+                    { y: 6.45, label: "Schedule", color: "#ff6669" },
+                    { y: 3.26, label: "Unschedule", color: "#f7adaf" },
+                    { y: 2.26, label: "Missed", color: "#f7978e" }
+                ]
+            }]
+        });
+        chart1.render();
+
+
+
+        var chart2 = new CanvasJS.Chart("chartContainer2", {
+            animationEnabled: true,
+            title: {
+                text: "COMPLAINTS"
+            },
+            data: [{
+                type: "pie",
+                startAngle: 240,
+                yValueFormatString: "##0.00\"%\"",
+                indexLabel: "{label} {y}",
+                dataPoints: [
+                    { y: 8.45, label: "Resolved", color: "#c1c6c8" },
+                    { y: 6.26, label: "Unresolved", color: "#97999b" }
+                ]
+            }]
+        });
+        chart2.render();
+
+
+
+        var chart3 = new CanvasJS.Chart("chartContainer3", {
+            animationEnabled: true,
+            title: {
+                text: "INCIDENTS"
+            },
+            data: [{
+                type: "pie",
+                startAngle: 240,
+                yValueFormatString: "##0.00\"%\"",
+                indexLabel: "{label} {y}",
+                dataPoints: [
+                    { y: 5.45, label: "Open", color: "#f1575a" },
+                    { y: 5.45, label: "Closed", color: "#f79f8e" }
+                ]
+            }]
+        });
+        chart3.render();
+
+    }
+</script>
+
+<div class="row">
+    <div class="col-lg-4 col-sm-12">
+        <div class="">
+            <select class="form-control">
+                <option value="0"> Client</option>
+                <option value="1">ABC</option>
+            </select>
+        </div>
+    </div>
+    <div class=" col-lg-4 col-sm-12">
+        <div class="">
+            <select class="form-control">
+                <option value="0">Client Address</option>
+                <option value="1">ABC</option>
+            </select>
+        </div>
+    </div>
+   <div class=" col-lg-4 col-sm-12">
+        <div class="">
+            <input type="text" id="rangeDate" class="form-control" placeholder=" Date " data-input style="background-color: white;">
+            <i class="fa fa-calendar" aria-hidden="true" style="float:right;margin: -30px 15px 0 0;color:#ff243a "></i>
+
+        </div>
+    </div>
+</div>
+<br/>
+<!--Cards Data-->
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="card text-center col-lg-3 col-md-6 col-sm-6 col-xs-12" style="padding:0.4%;border-style:none;">
+            <div class="card-header  " style="    padding: 5px;background-color:#848688;border-top-left-radius:10px;border-top-right-radius:10px;">Site Inspection</div>
+            <div class="card-body " style="padding-top:0.20rem;padding-bottom:0.25rem;background-color:#a9abae;flex:0;">
+                <table align="center">
+                    <tr>
+                        <td><button type="button" class="btn " style="background-color:#848688;border-radius:50%"><span>23</span></button></td>
+                        <td><button type="button" class="btn " style="background-color:#848688;border-radius:50%"><span>11</span></button></td>
+                        <td><button type="button" class="btn " style="background-color:#848688;border-radius:50%;width: 75%;"><span>34</span></button></td>
+                        <td><button type="button" class="btn " style="background-color:#848688;border-radius:50%"><span>48</span></button></td>
+                    </tr>
+                    <tr>
+                        <td>Day</td>
+                        <td>Night</td>
+                        <td>Surprise</td>
+                        <td>Other</td>
+
+                    </tr>
+                </table>
+            </div>
+            <div class="card-footer " style=" background-color:#848688;border-bottom-left-radius:10px;border-bottom-right-radius:10px;padding:2px"><a href="#">More info</a></div>
+        </div>
+
+        <div class="card col-lg-3 col-md-6 col-sm-6 col-xs-12" style="padding:0.4%;border-style:none;">
+            <div class="card-header" style="    padding: 5px;background-color:#ff6669;border-top-left-radius:10px;border-top-right-radius:10px; ">Customer Visits</div>
+            <div class="card-body" style="padding:0.20rem;padding-bottom:0.25rem;background-color:#f79f8e;flex:0;">
+                <table align="center">
+                    <tr>
+                        <td><button type="button" class="btn " style="background-color:#ff6669;border-radius:50%;"><span>02</span></button></td>
+                        <td><button type="button" class="btn " style="background-color:#ff6669;border-radius:50%;    width: 65%;"><span>01</span></button></td>
+                        <td><button type="button" class="btn " style="background-color:#ff6669;border-radius:50%;    width: 105%;"><span>01</span></button></td>
+                    </tr>
+                    <tr>
+                        <td>Schedule</td>
+                        <td>Unschedule</td>
+                        <td>Missed</td>
+                    </tr>
+                </table>
+
+            </div>
+            <div class="card-footer " style="   background-color:#ff6669;border-bottom-left-radius:10px;border-bottom-right-radius:10px;padding:1px;text-align:center;"><a href="#">More info</a></div>
+        </div>
+
+        <div class="card col-lg-3 col-md-4 col-sm-6 col-xs-12" style="padding:0.4%;border-style:none;">
+            <div class="card-header " style="    padding: 5px;background-color:#97999b;border-top-left-radius:10px;border-top-right-radius:10px;">Complaints</div>
+            <div class="card-body " style="padding:0.20rem;background-color:#c1c6c8;flex:0;">
+                <table align="center">
+                    <tr>
+                        <td><button type="button" class="btn " style="background-color:#97999b;border-radius:50%;width:65%;"><span>04</span></button></td>
+                        <td><button type="button" class="btn " style="background-color:#97999b;border-radius:50%;width: 55%;"><span>02</span></button></td>
+                    </tr>
+                    <tr>
+                        <td>Resolved</td>
+                        <td>Unresolved</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="card-footer " style="background-color:#97999b;border-bottom-left-radius:10px;border-bottom-right-radius:10px;padding:1px;text-align:center;"><a href="#">More info</a></div>
+        </div>
+
+
+        <div class="card text-center col-lg-3 col-md-4 col-sm-6 col-xs-12" style="padding:0.4%;border-style:none;">
+            <div class="card-header" style="    padding: 5px;background-color:#f15758;border-top-left-radius:10px;border-top-right-radius:10px;">Incident</div>
+            <div class="card-body " style="padding:0.20rem;background-color:#f7adaf;flex:0;">
+                <table align="center">
+                    <tr>
+                        <td><button type="button" class="btn " style="background-color:#f15758;border-radius:50%;    width: 60%;"><span>02</span></button></td>
+                        <td><button type="button" class="btn " style="background-color:#f15758;border-radius:50%;    width: 60%;"><span>02</span></button></td>
+                    </tr>
+                    <tr>
+                        <td>Closed</td>
+                        <td>open</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="card-footer " style="background-color:#f15758;border-bottom-left-radius:10px;border-bottom-right-radius:10px;padding:1px;text-align:center;"><a href="#">More info</a></div>
+        </div>
+    </div>
+</div>
+<br />
+<br/>
+<!--Graph data -->
+<div class="row">
+    <div class="col-lg-3 col-md-12 col-sm-12">
+        <div id="chartContainer" style="height: 200px; width: 100%;"></div>
+    </div>
+    <div class="col-lg-3 col-md-12 col-sm-12">
+        <div id="chartContainer1" style="height: 200px; width: 100%;"></div>
+    </div>
+    <div class="col-lg-3 col-md-12 col-sm-12">
+        <div id="chartContainer2" style="height: 200px; width: 100%;"></div>
+    </div>
+    <div class="col-lg-3 col-md-12 col-sm-12">
+        <div id="chartContainer3" style="height: 200px; width: 100%;"></div>
+    </div>
+</div>
+
