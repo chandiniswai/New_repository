@@ -11,6 +11,7 @@ namespace GMSEPSOMS.Controllers
         // GET: ClientReport    
         public ActionResult ClientReport()
         {
+            string name = "naveen";
             return View();
         }
     }
